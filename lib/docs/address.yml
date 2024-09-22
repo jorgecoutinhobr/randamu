@@ -1,0 +1,554 @@
+address:
+  city:
+    - New York
+    - Los Angeles
+    - Chicago
+    - Houston
+    - Phoenix
+    - Philadelphia
+    - San Antonio
+    - San Diego
+    - Dallas
+    - San Jose
+    - Austin
+    - Jacksonville
+    - Fort Worth
+    - Columbus
+    - Charlotte
+    - San Francisco
+    - Indianapolis
+    - Seattle
+    - Denver
+    - Washington
+    - Boston
+    - El Paso
+    - Detroit
+    - Nashville
+    - Portland
+    - Las Vegas
+    - Memphis
+    - Louisville
+    - Baltimore
+    - Milwaukee
+    - Albuquerque
+    - Tucson
+    - Fresno
+    - Sacramento
+    - Kansas City
+    - Atlanta
+    - Miami
+    - Colorado Springs
+    - Omaha
+    - Raleigh
+    - Long Beach
+    - Virginia Beach
+    - Oakland
+    - Minneapolis
+    - Tulsa
+    - Arlington
+    - New Orleans
+    - Wichita
+    - Cleveland
+    - Tampa
+    - Bakersfield
+    - Aurora
+    - Anaheim
+    - Santa Ana
+    - Corpus Christi
+    - Riverside
+    - Lexington
+    - St. Louis
+    - Stockton
+    - Pittsburgh
+    - St. Paul
+    - Cincinnati
+    - Anchorage
+    - Henderson
+    - Greensboro
+    - Plano
+    - Newark
+    - Lincoln
+    - Orlando
+    - Irvine
+    - Toledo
+    - Jersey City
+    - Chula Vista
+    - Durham
+    - Fort Wayne
+    - St. Petersburg
+    - Laredo
+    - Buffalo
+    - Madison
+    - Lubbock
+    - Chandler
+    - Scottsdale
+    - Reno
+    - Glendale
+    - Gilbert
+    - Winston-Salem
+    - North Las Vegas
+    - Norfolk
+    - Chesapeake
+    - Garland
+    - Irving
+    - Hialeah
+    - Fremont
+    - Boise
+    - Richmond
+    - Spokane
+    - Baton Rouge
+    - Tacoma
+    - San Bernardino
+    - Modesto
+    - Fontana
+    - Des Moines
+    - Moreno Valley
+    - Santa Clarita
+    - Birmingham
+    - Oxnard
+    - Fayetteville
+    - Rochester
+    - Port St. Lucie
+    - Grand Rapids
+    - Huntsville
+    - Salt Lake City
+    - Frisco
+    - Yonkers
+    - Amarillo
+    - Glendale
+    - Huntington Beach
+    - McKinney
+    - Montgomery
+    - Augusta
+    - Akron
+    - Little Rock
+    - Tempe
+    - Columbus
+    - Overland Park
+    - Grand Prairie
+    - Tallahassee
+    - Cape Coral
+    - Mobile
+    - Knoxville
+    - Shreveport
+    - Worcester
+    - Ontario
+    - Vancouver
+    - Sioux Falls
+    - Chattanooga
+    - Brownsville
+    - Fort Lauderdale
+    - Providence
+    - Newport News
+    - Rancho Cucamonga
+    - Santa Rosa
+    - Peoria
+    - Oceanside
+    - Elk Grove
+    - Salem
+    - Pembroke Pines
+    - Eugene
+    - Garden Grove
+    - Cary
+    - Fort Collins
+    - Corona
+    - Springfield
+    - Jackson
+    - Alexandria
+    - Hayward
+    - Clarksville
+    - Lakewood
+    - Lancaster
+    - Salinas
+    - Palmdale
+    - Hollywood
+    - Spring Valley
+    - Dayton
+    - Manchester
+    - Downey
+    - Clearwater
+    - Westminster
+    - Billings
+    - Rochester Hills
+    - Dearborn
+    - Albany
+    - Burbank
+    - Boulder
+    - Ventura
+    - Berkeley
+    - Temecula
+    - West Covina
+    - Murfreesboro
+    - Gresham
+    - South Bend
+    - League City
+    - Lewisville
+    - Bend
+    - San Marcos
+
+  country:
+    - USA
+    - Canada
+    - Mexico
+    - Brazil
+    - Argentina
+    - Chile
+    - UK
+    - Germany
+    - France
+    - Spain
+    - Italy
+    - Portugal
+    - Australia
+    - New Zealand
+    - Japan
+    - China
+    - India
+    - South Korea
+    - Russia
+    - South Africa
+    - Egypt
+    - Nigeria
+    - Kenya
+    - Morocco
+    - Israel
+    - Saudi Arabia
+    - United Arab Emirates
+    - Turkey
+    - Greece
+    - Sweden
+    - Norway
+    - Finland
+    - Denmark
+    - Netherlands
+    - Belgium
+    - Switzerland
+    - Austria
+    - Poland
+    - Hungary
+    - Czech Republic
+    - Slovakia
+    - Slovenia
+    - Croatia
+    - Serbia
+    - Romania
+    - Bulgaria
+    - Ukraine
+    - Belarus
+    - Kazakhstan
+    - Uzbekistan
+    - Georgia
+    - Armenia
+    - Azerbaijan
+    - Iran
+    - Iraq
+    - Pakistan
+    - Bangladesh
+    - Sri Lanka
+    - Thailand
+    - Vietnam
+    - Malaysia
+    - Singapore
+    - Indonesia
+    - Philippines
+    - Myanmar
+    - Cambodia
+    - Laos
+    - Maldives
+    - Bhutan
+    - Nepal
+    - Fiji
+    - Papua New Guinea
+    - Tonga
+    - Samoa
+    - Tonga
+    - Solomon Islands
+    - Vanuatu
+    - Cyprus
+    - Malta
+    - Iceland
+    - Greenland
+    - Cuba
+    - Jamaica
+    - Dominican Republic
+    - Haiti
+    - Trinidad and Tobago
+    - Bahamas
+    - Barbados
+    - St. Lucia
+    - St. Vincent
+    - Grenada
+    - Belize
+    - Panama
+    - Costa Rica
+    - Guatemala
+    - Honduras
+    - El Salvador
+    - Nicaragua
+    - Ecuador
+    - Peru
+    - Uruguay
+    - Paraguay
+    - Bolivia
+    - Venezuela
+    - Colombia
+    - Suriname
+    - Guyana
+
+  state:
+    - California
+    - Texas
+    - Florida
+    - New York
+    - Illinois
+    - Pennsylvania
+    - Ohio
+    - Georgia
+    - North Carolina
+    - Michigan
+    - New Jersey
+    - Virginia
+    - Washington
+    - Arizona
+    - Massachusetts
+    - Tennessee
+    - Indiana
+    - Missouri
+    - Maryland
+    - Wisconsin
+    - Colorado
+    - Minnesota
+    - South Carolina
+    - Alabama
+    - Louisiana
+    - Kentucky
+    - Oregon
+    - Oklahoma
+    - Connecticut
+    - Iowa
+    - Utah
+    - Nevada
+    - Arkansas
+    - Mississippi
+    - Kansas
+    - New Mexico
+    - Nebraska
+    - West Virginia
+    - Idaho
+    - Hawaii
+    - Maine
+    - New Hampshire
+    - Montana
+    - Rhode Island
+    - Delaware
+    - South Dakota
+    - North Dakota
+    - Alaska
+    - Vermont
+    - Wyoming
+
+  street:
+    - 123 Main St
+    - 456 Oak St
+    - 789 Pine Ave
+    - 101 Maple Rd
+    - 234 Elm St
+    - 567 Cedar Ln
+    - 890 Birch St
+    - 345 Willow Ave
+    - 678 Chestnut St
+    - 901 Walnut Blvd
+    - 102 Spruce Dr
+    - 345 Fir Ln
+    - 678 Poplar St
+    - 912 Sycamore Rd
+    - 213 Redwood St
+    - 546 Hickory Blvd
+    - 789 Magnolia Ave
+    - 120 Cherry St
+    - 453 Cypress Rd
+    - 786 Palm Ln
+    - 907 Acacia St
+    - 234 Beech St
+    - 567 Juniper Blvd
+    - 890 Alder St
+    - 123 Dogwood Ln
+    - 456 Hemlock Ave
+    - 789 Ash St
+    - 101 Cedar Ct
+    - 234 Maple St
+    - 567 Spruce Blvd
+    - 890 Birch Rd
+    - 345 Hickory Ln
+    - 678 Magnolia St
+    - 901 Sycamore Ave
+    - 102 Cherry Ln
+    - 345 Juniper St
+    - 678 Redwood Blvd
+    - 912 Beech Ln
+    - 213 Ash Ct
+    - 546 Cedar St
+    - 789 Fir Rd
+    - 120 Pine Ln
+    - 453 Maple St
+    - 786 Oak Blvd
+    - 907 Willow Ln
+    - 234 Chestnut Rd
+    - 567 Elm Blvd
+    - 890 Spruce Ln
+    - 123 Pine St
+    - 456 Oak Rd
+    - 789 Birch Ln
+    - 101 Cedar St
+    - 234 Maple Ln
+    - 567 Spruce Blvd
+    - 890 Fir St
+    - 345 Willow Rd
+    - 678 Chestnut Ln
+    - 901 Walnut Blvd
+    - 102 Spruce St
+    - 345 Fir Blvd
+    - 678 Poplar Ln
+    - 912 Sycamore Blvd
+    - 213 Redwood Ln
+    - 546 Hickory St
+    - 789 Magnolia Blvd
+    - 120 Cherry Ln
+  zip_code:
+    - 10001
+    - 90001
+    - 60601
+    - 77001
+    - 85001
+    - 19101
+    - 78201
+    - 92101
+    - 75201
+    - 95101
+    - 78701
+    - 32201
+    - 76101
+    - 43201
+    - 28201
+    - 94101
+    - 46201
+    - 98101
+    - 80201
+    - 20001
+    - 02101
+    - 79901
+    - 48201
+    - 37201
+    - 97201
+    - 89101
+    - 38101
+    - 40201
+    - 21201
+    - 53201
+    - 87101
+    - 85701
+    - 93701
+    - 95801
+    - 64101
+    - 30301
+    - 33101
+    - 80901
+    - 68101
+    - 27601
+    - 90801
+    - 23450
+    - 94601
+    - 55401
+    - 74101
+    - 76001
+    - 70112
+    - 67201
+    - 44101
+    - 33601
+    - 93301
+    - 80010
+    - 92801
+    - 92701
+    - 78401
+    - 92501
+    - 40501
+    - 63101
+    - 95201
+    - 15201
+    - 55101
+    - 45201
+    - 99501
+    - 89009
+    - 27401
+    - 75001
+    - 07101
+    - 68501
+    - 32801
+    - 92602
+    - 43601
+    - 07302
+    - 91910
+    - 27701
+    - 46801
+    - 33701
+    - 78040
+    - 14201
+    - 53701
+    - 79401
+    - 85224
+    - 85251
+    - 89501
+    - 85301
+    - 85234
+    - 27101
+    - 89030
+    - 23501
+    - 23320
+    - 75040
+    - 75060
+    - 33002
+    - 94536
+    - 83701
+    - 23218
+    - 99201
+    - 70801
+    - 98401
+    - 92401
+    - 95350
+    - 92335
+    - 50301
+    - 92553
+    - 91350
+    - 35201
+    - 93030
+    - 28301
+    - 14602
+    - 34952
+    - 49501
+    - 35801
+    - 84101
+    - 75035
+    - 10701
+    - 79101
+    - 85302
+    - 92646
+    - 75069
+    - 36101
+    - 30901
+    - 44301
+    - 72201
+    - 85282
+    - 31901
+    - 66204
+    - 75051
+    - 32301
+    - 33904
+    - 36601
+    - 37901
+    - 71101
+    - 01601
+    - 91761
+    - 98660
+    - 57101
+    - 37401
+    - 78520
