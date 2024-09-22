@@ -1,261 +1,191 @@
 name:
   male_first_name:
-    - John
-    - Paul
-    - Michael
+    - Carimbo
+    - João
+    - Paulo
+    - Miguel
     - David
-    - James
-    - Robert
+    - José
+    - Roberto
     - William
-    - Richard
-    - Charles
-    - Joseph
-    - Thomas
-    - Christopher
+    - Ricardo
+    - Carlos
+    - Antônio
+    - Tomás
+    - Cristiano
     - Daniel
-    - Matthew
-    - Anthony
-    - Mark
-    - Donald
-    - Steven
-    - Edward
-    - Brian
-    - Kevin
-    - Ronald
-    - Jason
-    - Jeffrey
-    - Gary
-    - Ryan
+    - Mateus
+    - Antônio
+    - Marcos
+    - Eduardo
+    - Estêvão
+    - Leonardo
+    - Bruno
+    - Lucas
+    - Renan
+    - Jeferson
+    - Gustavo
+    - Rafael
+    - Pedro
     - Nicholas
-    - Eric
+    - Erick
     - Jonathan
-    - Stephen
-    - Larry
-    - Scott
-    - Frank
-    - Brandon
-    - Raymond
-    - Gregory
-    - Benjamin
+    - Alexandre
+    - Lúcio
+    - Samuel
+    - Francisco
+    - Bernardo
+    - Raimundo
+    - Gregório
+    - Benjamim
     - Samuel
     - Patrick
-    - Alexander
-    - Jack
-    - Dennis
-    - Jerry
-    - Tyler
-    - Aaron
-    - Jose
-    - Adam
-    - Nathan
-    - Henry
+    - Alexandre
+    - Thiago
+    - Denis
+    - Jair
+    - Tales
+    - Arão
+    - José
+    - Adão
+    - Natanael
+    - Henrique
     - Douglas
-    - Zachary
-    - Peter
-    - Kyle
-    - Walter
-    - Ethan
-    - Jeremy
-    - Harold
-    - Christian
-    - Keith
-    - Roger
-    - Gerald
-    - Jesse
-    - Albert
-    - Arthur
-    - Carl
-    - Dylan
-    - Bruce
+    - Zacarias
+    - Pedro
+    - Caio
+    - Valter
+    - Eduardo
+    - Jeremias
+    - Haroldo
+    - Cristiano
+    - Kauã
+    - Rogério
+    - Geraldo
+    - Jessé
+    - Alberto
+    - Artur
+    - Carlos
+    - Davi
+    - Bruno
     - Bryan
-    - Joe
+    - José
     - Jordan
-    - Billy
-    - Sean
-    - Ralph
-    - Roy
-    - Noah
-    - Eugene
-    - Randy
-    - Vincent
-    - Russell
-    - Elijah
-    - Louis
-    - Bobby
-    - Philip
+    - Guilherme
+    - João
+    - Rafael
+    - Rui
+    - Noé
+    - Eugênio
+    - Ronaldo
+    - Vicente
+    - Roberto
+    - Elias
+    - Luís
+    - João
+    - Felipe
     - Johnny
-    - Logan
-    - Wayne
     - Alan
     - Juan
-    - Austin
-    - Willie
+    - Noan
+    - Enzo
     - Gabriel
-    - Martin
-    - Stanley
-    - Travis
-    - Brad
-    - Bruce
-    - Alex
-    - Seth
-    - Calvin
-    - Marshall
-    - Glenn
+    - Marlos
+    - Samuel
     - Levi
-    - Spencer
-    - Jake
-    - Curtis
-    - Hunter
-    - Joel
-    - Wesley
-    - Dean
-    - Cameron
-    - Mitchell
-    - Craig
-    - Tony
-    - Clifford
-    - Lance
-    - Neil
-    - Brett
-    - Warren
-    - Maurice
-    - Rodney
-    - Jerome
-    - Terry
-    - Derek
-    - Clarence
-    - Glen
-    - Blake
-    - Francis
-    - Bradley
-    - Phillip
-    - Lawrence
-    - Ivan
-    - Floyd
-    - Warren
-    - Lester
-    - Clyde
-    - Chad
-    - Wesley
-    - Nelson
-    - Dwight
-    - Curtis
-    - Dean
-    - Earl
-    - Gilbert
-    - Barry
-    - Tom
-    - Steve
-    - Travis
-    - Harold
-    - Glenn
-    - Howard
-    - Jared
-    - Kent
-    - Max
-    - Dwight
-    - Norman
-    - Allan
-    - Oscar
-    - Darrell
-    - Eugene
     - Leo
-    - Freddie
-    - Max
-    - Stuart
-    - Rodney
-    - Brad
+    - André
+    - Antonio
+    - Leandro
     - Felix
-    - Kirk
-    - Andy
-    - Darren
-    - Ross
-    - Ronald
-    - Clifford
-    - Julius
-    - Clifford
+    - Kayo
+    - Werllerson
+    - Denilson
+    - Ricardo
+    - Ronaldo
+    - Ulisses
+    - Júlio
     - Colin
     - Graham
-    - Jacob
-    - Wyatt
+    - Jacó
+    - Israel
     - Herbert
-    - Harold
-    - Melvin
-    - Victor
+    - Haroldo
+    - Marcos
+    - Vítor
 
   female_first_name:
-    - Mary
-    - Jane
+    - Maria
+    - Joana
     - Jennifer
     - Linda
-    - Elizabeth
-    - Susan
-    - Margaret
-    - Jessica
-    - Dorothy
-    - Sarah
+    - Elisabete
+    - Susana
+    - Margarida
+    - Jéssica
+    - Doroteia
+    - Sara
     - Karen
     - Nancy
-    - Lisa
+    - Elisa
     - Sandra
     - Michelle
-    - Ashley
+    - Aline
     - Emily
     - Laura
-    - Amy
-    - Helen
-    - Patricia
+    - Ana
+    - Helena
+    - Patrícia
     - Melissa
-    - Kimberly
-    - Angela
-    - Maria
+    - Kátia
+    - Ângela
+    - Mariana
     - Anna
     - Carol
     - Ruth
-    - Rebecca
+    - Rebeca
     - Shirley
-    - Catherine
-    - Christine
-    - Barbara
-    - Debra
-    - Jacqueline
-    - Olivia
-    - Erica
-    - Rachel
-    - Stephanie
+    - Catarina
+    - Cristiane
+    - Bárbara
+    - Débora
+    - Jaqueline
+    - Olívia
+    - Érica
+    - Raquel
+    - Estefânia
     - Janice
-    - Samantha
+    - Samanta
     - Brenda
-    - Julia
-    - Andrea
-    - Lauren
+    - Júlia
+    - Andréia
+    - Loren
     - Diana
-    - Megan
+    - Mônica
     - Alice
-    - Heather
-    - Kathryn
+    - Érica
+    - Cátia
     - Denise
-    - Crystal
-    - Rose
-    - Ann
+    - Cristal
+    - Rosa
+    - Ana
     - Irene
     - Gina
     - Brooke
-    - Katherine
+    - Catarina
     - Carol
-    - Victoria
+    - Vitória
     - Ellen
-    - Valerie
+    - Valéria
     - Janice
-    - Debbie
-    - Cheryl
+    - Débora
+    - Cíntia
     - Joan
     - Bonnie
     - Jean
-    - Beverly
+    - Beatriz
     - Marilyn
-    - Frances
-    - Holly
+    - Franciele
     - Melissa
     - Amber
     - Diane
@@ -263,259 +193,191 @@ name:
     - Teresa
     - Kelly
     - Regina
-    - Laurie
+    - Laura
     - Stacy
     - Shannon
-    - Joanne
+    - Joana
     - Emma
-    - Pauline
+    - Paula
     - Glenda
-    - Maureen
-    - Bernice
-    - Rachel
+    - Bernadete
+    - Raquel
     - Erin
     - Brenda
-    - Edith
+    - Edite
     - Gina
-    - Betty
+    - Betina
     - Kelly
-    - Dorothy
+    - Dorotéia
     - Gladys
     - Hazel
-    - Donna
-    - Gail
+    - Dona
+    - Gilda
     - Wendy
-    - Kristy
-    - Melanie
-    - Joy
-    - Beth
-    - Lori
-    - Peggy
+    - Cristiane
+    - Melânia
+    - Júlia
+    - Isabel
+    - Lorena
     - Sara
-    - Marilyn
+    - Marlene
     - Vicki
-    - Felicia
-    - Allison
-    - Debbie
+    - Felícia
+    - Alison
     - Paula
     - Kay
-    - Jeanette
-    - Jodi
-    - Julia
-    - Katie
+    - Janete
+    - Jordana
+    - Júlia
     - Alice
     - Mabel
-    - Rhonda
     - Robin
-    - Phyllis
+    - Filomena
     - Darlene
-    - Ruth
-    - Frances
+    - Rute
+    - Francisca
     - Sonia
-    - April
-    - Ella
+    - Abril
+    - Elen
     - Cynthia
-    - Casey
-    - Louise
+    - Luísa
     - Monique
     - Vanessa
     - Regina
-    - Esther
-    - Marsha
-    - Jessie
-    - April
-    - Joanne
-    - Beatrice
-    - Sylvia
-    - Iris
-    - Faith
-    - Lillian
-    - Veronica
-    - Maggie
-    - Madeline
-    - Delores
+    - Ester
+    - Marisa
+    - Jéssica
+    - Abril
+    - Joana
+    - Beatriz
+    - Sílvia
+    - Íris
+    - Rosa
+    - Liliana
+    - Verônica
+    - Magda
+    - Madalena
+    - Dolores
     - Olivia
-    - Candace
+    - Cândida
     - Leona
-    - Tammy
-    - Penny
-    - Harriet
-    - Nellie
-    - Viola
-    - Gloria
-    - Lucille
+    - Tereza
+    - Pitty
+    - Nélia
+    - Violeta
+    - Glória
+    - Lucília
     - Vivian
-    - Joann
+    - Joana
     - Deanna
-    - Hannah
-    - Myra
-    - Edith
+    - Hanna
+    - Mira
     - Joyce
 
   last_name:
-    - Doe
-    - Smith
-    - Johnson
-    - Williams
-    - Brown
-    - Jones
-    - Miller
-    - Davis
-    - Wilson
-    - Moore
-    - Taylor
-    - Anderson
-    - Thomas
-    - Jackson
-    - White
-    - Harris
-    - Martin
-    - Thompson
-    - Garcia
-    - Martinez
-    - Robinson
-    - Clark
-    - Rodriguez
-    - Lewis
-    - Lee
-    - Walker
-    - Hall
-    - Allen
-    - Young
-    - Hernandez
-    - King
-    - Wright
-    - Lopez
-    - Hill
-    - Scott
-    - Green
-    - Adams
-    - Baker
-    - Gonzalez
-    - Nelson
-    - Carter
-    - Mitchell
-    - Perez
-    - Roberts
-    - Turner
-    - Phillips
-    - Campbell
-    - Parker
-    - Evans
-    - Edwards
-    - Collins
-    - Stewart
-    - Sanchez
-    - Morris
-    - Rogers
-    - Reed
-    - Cook
-    - Morgan
-    - Bell
-    - Murphy
-    - Bailey
-    - Rivera
-    - Cooper
-    - Richardson
-    - Cox
-    - Howard
-    - Ward
-    - Torres
-    - Peterson
-    - Gray
-    - Ramirez
-    - James
-    - Watson
-    - Brooks
-    - Kelly
-    - Sanders
-    - Price
-    - Bennett
-    - Wood
-    - Barnes
-    - Ross
-    - Henderson
-    - Coleman
-    - Jenkins
-    - Perry
-    - Powell
-    - Long
-    - Patterson
-    - Hughes
-    - Flores
-    - Washington
-    - Butler
-    - Simmons
-    - Foster
-    - Gonzales
-    - Bryant
-    - Alexander
-    - Russell
-    - Griffin
-    - Diaz
-    - Hayes
-    - Myers
-    - Ford
-    - Hamilton
-    - Graham
-    - Sullivan
-    - Wallace
-    - Woods
-    - Cole
-    - West
-    - Jordan
-    - Owens
-    - Reynolds
-    - Fisher
-    - Ellis
-    - Harrison
-    - Gibson
-    - McDonald
+    - Silva
+    - Santos
+    - Oliveira
+    - Pereira
+    - Souza
+    - Almeida
+    - Carvalho
+    - Lima
+    - Gomes
+    - Mendes
+    - Teixeira
+    - Martins
+    - Ferreira
+    - Costa
+    - Araujo
+    - Cardoso
+    - Barros
+    - Rodrigues
+    - Nascimento
+    - Vieira
+    - Farias
+    - Batista
+    - Dias
+    - Monteiro
+    - Barbosa
+    - Pinto
+    - Castro
+    - Andrade
+    - Moreira
+    - Ribeiro
+    - Menezes
+    - Correia
+    - Miranda
+    - Brito
+    - Melo
+    - Guimarães
+    - Braga
+    - Duarte
+    - Assis
+    - Cunha
+    - Macedo
+    - Fonseca
+    - Albuquerque
+    - Leite
+    - Bastos
+    - Tavares
+    - Machado
+    - Coelho
+    - Figueiredo
     - Cruz
-    - Marshall
-    - Ortiz
-    - Gomez
-    - Murray
-    - Freeman
-    - Wells
-    - Webb
-    - Simpson
-    - Stevens
-    - Tucker
-    - Porter
-    - Hunter
-    - Hicks
-    - Crawford
-    - Henry
-    - Boyd
-    - Mason
-    - Morales
-    - Kennedy
-    - Warren
-    - Dixon
-    - Ramos
-    - Fisher
-    - Burns
-    - Shaw
-    - Holmes
-    - Rice
-    - Robertson
-    - Hunt
-    - Black
-    - Daniels
-    - Palmer
-    - Mills
-    - Nichols
-    - Grant
-    - Knight
-    - Ferguson
-    - Rose
-    - Stone
-    - Hawkins
-    - Dunn
-    - Perkins
-    - Hudson
-    - Spencer
-    - Gardner
-    - Stephens
-    - Payne
+    - Lima
+    - Duarte
+    - Silva
+    - Reis
+    - Mendes
+    - Souza
+    - Vieira
+    - Peixoto
+    - Neves
+    - Loureiro
+    - Santana
+    - Miranda
+    - Pacheco
+    - Campos
+    - Falcão
+    - Seixas
+    - Xavier
+    - Lemos
+    - Vasconcelos
+    - Azevedo
+    - Lacerda
+    - Furtado
+    - Portela
+    - Moura
+    - Matos
+    - Rocha
+    - Freitas
+    - Pontes
+    - Aragão
+    - Dantas
+    - Lobo
+    - Maia
+    - Passos
+    - Corrêa
+    - Sena
+    - Monteiro
+    - Goulart
+    - Silveira
+    - Veiga
+    - Sarmento
+    - Dorneles
+    - Meireles
+    - Teixeira
+    - Leitão
+    - Souza
+    - Sampaio
+    - Carneiro
+    - Monte
+    - Matias
+    - Pires
+    - Medeiros
+    - Paiva
+    - Almeida
+    - Teles
+    - Lins
+    - Coutinho

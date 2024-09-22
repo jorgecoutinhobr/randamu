@@ -15,14 +15,15 @@ module Randamu
         "#{first_name} #{last_name}"
       end
 
-      def custom_name(length = 2)
-        custom_name = first_name
-
-        (length - 1).times do
-          custom_name += " #{last_name}"
+      def custom_name(length: 2, gender: nil)
+        case gender
+        when 'male'
+          custom_male_name(length)
+        when 'female'
+          custom_female_name(length)
+        else
+          custom_unisex_name(length)
         end
-
-        custom_name
       end
 
       def male_name
@@ -32,6 +33,29 @@ module Randamu
       def female_name
         load_data('name.female_first_name').sample
       end
+
+      private
+        def custom_male_name(length)
+          generate_custom_name(male_name, length)
+        end
+
+        def custom_female_name(length)
+          generate_custom_name(female_name, length)
+        end
+
+        def custom_unisex_name(length)
+          generate_custom_name(full_name, length)
+        end
+
+        def generate_custom_name(initial_name, length)
+          custom_name = initial_name
+
+          (length - 1).times do
+            custom_name += " #{last_name}"
+          end
+
+          custom_name
+        end
     end
   end
 end

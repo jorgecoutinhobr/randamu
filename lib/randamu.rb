@@ -16,4 +16,4 @@ module Randamu
   end
 end
 
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/**/*.rb')).sort.each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/**/*.rb')).each { |file| require file }
