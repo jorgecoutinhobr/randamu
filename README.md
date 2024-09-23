@@ -47,13 +47,15 @@ paragrafo = Randamu::Text.paragraph(phrases: 4)
 
 texto = Randamu::Text.big_text(paragraphs: 4)
 
-nome = Randamu::Name.first_name()
+nome = Randamu::Person.first_name
 
-sobrenome = Randamu::Name.last_name()
+nome_masculino = Randamu::Person.first_name(gender: :male)
 
-nome_completo = Randamu::Name.full_name()
+sobrenome = Randamu::Person.last_name
 
-nome_customizado = Randamu::Name.custom_name(length: 3, gender: :male)
+nome_completo = Randamu::Person.full_name
+
+nome_customizado = Randamu::Person.custom_name(length: 3, gender: :male)
 ```
 
 

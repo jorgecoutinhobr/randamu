@@ -1,7 +1,7 @@
 module Randamu
   class Animal < Base
     class << self
-      ANIMAL_TYPES = %w(mammal bird fish amphibian reptile insect random)
+      ANIMAL_TYPES = %w(mammal bird fish amphibian reptile insect random).freeze
 
       def animal(type: :random)
         animal_type(type).sample

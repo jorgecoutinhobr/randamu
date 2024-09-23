@@ -1,7 +1,7 @@
 require 'yaml'
 
 module Randamu
-  DATA_DIR = File.join(__dir__, 'docs')
+  DATA_DIR = File.join(__dir__, 'data')
   DATA = Dir.glob(File.join(DATA_DIR, '**', '*.yml')).each_with_object({}) do |file, data|
     data.merge!(YAML.load_file(file))
   end
