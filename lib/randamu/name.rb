@@ -1,54 +1,37 @@
 module Randamu
   class Name < Base
     class << self
-      def first_name
-        male_first_names = load_data('names.male_first_name')
-        female_first_names = load_data('names.female_first_name')
-        (male_first_names + female_first_names).sample
+      GENDER = %w(male female).freeze
+
+      def first_name(gender: nil)
+        return load_db(gender).sample if !gender.nil? && GENDER.include?(gender.to_s)
+
+        gender = GENDER.sample
+        load_db(gender).sample
       end
 
       def last_name
-        load_data('names.last_name').sample
+        load_db(:last).sample
       end
 
-      def full_name
-        "#{first_name} #{last_name}"
+      def full_name(gender: nil)
+        "#{first_name(gender: gender)} #{last_name}"
       end
 
       def custom_name(length: 0, gender: nil)
-        case gender
-        when 'male'
-          custom_male_name(length)
-        when 'female'
-          custom_female_name(length)
-        else
-          custom_unisex_name(length)
-        end
-      end
-
-      def male_name
-        load_data('names.male_first_name').sample
-      end
-
-      def female_name
-        load_data('names.female_first_name').sample
+        generate_custom_name(first_name(gender: gender), length)
       end
 
       private
-        def custom_male_name(length)
-          generate_custom_name(male_name, length)
-        end
+        def load_db(type)
+          return load_data("names.#{type}_name") unless type.nil?
 
-        def custom_female_name(length)
-          generate_custom_name(female_name, length)
-        end
-
-        def custom_unisex_name(length)
-          generate_custom_name(first_name, length)
+          type = GENDER.sample
+          return load_data("names.#{type}_name")
         end
 
         def generate_custom_name(initial_name, length)
-          return initial_name if length < 1
+          return initial_name if length <= 1
 
           (length - 1).times do
             initial_name += " #{last_name}"

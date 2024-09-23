@@ -1,5 +1,5 @@
 names:
-  male_first_name:
+  male_name:
     - Carimbo
     - João
     - Paulo
@@ -114,7 +114,7 @@ names:
     - Marcos
     - Vítor
 
-  female_first_name:
+  female_name:
     - Maria
     - Joana
     - Jennifer
