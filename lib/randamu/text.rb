@@ -1,21 +1,37 @@
 module Randamu
   class Text < Base
     class << self
-      def word
-        load_data('text.lorem').sample
+      WORD_TYPES = %w(upcase downcase capitalize)
+      # Implement safe guard for methods "if size < 1 then return something"
+      def word(format: nil)
+        case format
+        when :upcase
+          load_db.sample.upcase
+        when :downcase
+          load_db.sample.downcase
+        when :capitalize
+          load_db.sample.capitalize
+        else
+          load_db.sample
+        end
       end
 
-      def sentence(word_count = 4)
-        word_count.times.map { word }.join(' ').capitalize
+      def sentence(size: 4)
+        size.times.map { word }.join(' ').capitalize + '.'
       end
 
-      def paragraph(sentence_count = 8)
-        sentence_count.times.map { sentence }.join('. ') + '.'
+      def paragraph(sentences: 8)
+        sentences.times.map { sentence }.join(' ')
       end
 
-      def big_text(paragraph_count = 4)
-        paragraph_count.times.map { paragraph }.join("\n\n")
+      def big_text(paragraphs: 4)
+        paragraphs.times.map { paragraph }.join("\n\n")
       end
+
+      private
+        def load_db
+          load_data('texts.lorem')
+        end
     end
   end
 end

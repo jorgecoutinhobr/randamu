@@ -2,19 +2,19 @@ module Randamu
   class Address < Base
     class << self
       def city
-        load_data('address.city').sample
+        load_data('addresses.city').sample
       end
 
       def state
-        load_data('address.state').sample
+        load_data('addresses.state').sample
       end
 
       def street
-        load_data('address.street').sample
+        load_data('addresses.street').sample
       end
 
       def zip_code
-        load_data('address.zip_code').sample
+        load_data('addresses.zip_code').sample
       end
 
       def full_address

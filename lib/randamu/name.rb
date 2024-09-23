@@ -2,20 +2,20 @@ module Randamu
   class Name < Base
     class << self
       def first_name
-        male_first_names = load_data('name.male_first_name')
-        female_first_names = load_data('name.female_first_name')
+        male_first_names = load_data('names.male_first_name')
+        female_first_names = load_data('names.female_first_name')
         (male_first_names + female_first_names).sample
       end
 
       def last_name
-        load_data('name.last_name').sample
+        load_data('names.last_name').sample
       end
 
       def full_name
         "#{first_name} #{last_name}"
       end
 
-      def custom_name(length: 2, gender: nil)
+      def custom_name(length: 0, gender: nil)
         case gender
         when 'male'
           custom_male_name(length)
@@ -27,11 +27,11 @@ module Randamu
       end
 
       def male_name
-        load_data('name.male_first_name').sample
+        load_data('names.male_first_name').sample
       end
 
       def female_name
-        load_data('name.female_first_name').sample
+        load_data('names.female_first_name').sample
       end
 
       private
@@ -44,17 +44,17 @@ module Randamu
         end
 
         def custom_unisex_name(length)
-          generate_custom_name(full_name, length)
+          generate_custom_name(first_name, length)
         end
 
         def generate_custom_name(initial_name, length)
-          custom_name = initial_name
+          return initial_name if length < 1
 
           (length - 1).times do
-            custom_name += " #{last_name}"
+            initial_name += " #{last_name}"
           end
 
-          custom_name
+          initial_name
         end
     end
   end
