@@ -16,12 +16,12 @@ module Randamu
         end
       end
 
-      def sentence(size: 4)
+      def phrase(size: 4)
         size.times.map { word }.join(' ').capitalize + '.'
       end
 
-      def paragraph(sentences: 8)
-        sentences.times.map { sentence }.join(' ')
+      def paragraph(phrases: 8)
+        phrases.times.map { phrase }.join(' ')
       end
 
       def big_text(paragraphs: 4)
