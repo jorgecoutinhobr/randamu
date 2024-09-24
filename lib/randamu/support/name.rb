@@ -26,7 +26,7 @@ module Randamu
         return load_data("names.#{type}_name") unless type.nil?
 
         type = GENDER.sample
-        return load_data("names.#{type}_name")
+        load_data("names.#{type}_name")
       end
 
       def generate_custom_name(initial_name, length)
