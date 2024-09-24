@@ -4,7 +4,7 @@ module Randamu
 
     def first_name(gender: nil)
       return load_db(gender).sample if !gender.nil? && GENDER.include?(gender.to_s)
-
+      binding.pry
       gender = GENDER.sample
       load_db(gender).sample
     end
@@ -24,7 +24,7 @@ module Randamu
     private
       def load_db(type)
         return load_data("names.#{type}_name") unless type.nil?
-
+        binding.pry
         type = GENDER.sample
         load_data("names.#{type}_name")
       end

@@ -11,5 +11,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.3.12, mise: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.3, mise: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v1.1.0, mise: 2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.14.2, mise: 2.6.5) [gem]" level="application" />
   </component>
 </module>

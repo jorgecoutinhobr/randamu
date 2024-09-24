@@ -1,0 +1,1562 @@
+map:
+  streets:
+    - Rua do Ouvidor
+    - Rua do Lavradio
+    - Rua do Riachuelo
+    - Avenida Rio Branco
+    - Avenida Paulista
+    - Rua Augusta
+    - Rua Oscar Freire
+    - Rua Pamplona
+    - Rua Augusta
+    - Avenida Paulista
+    - Rua Oscar Freire
+  states:
+    RJ:
+        - Rio de Janeiro
+        - Niterói
+        - São Gonçalo
+        - Duque de Caxias
+        - Nova Iguaçu
+        - Belford Roxo
+        - São João de Meriti
+        - Itaboraí
+        - Mesquita
+        - Nilópolis
+        - Queimados
+        - Maricá
+        - Magé
+        - Seropédica
+        - Japeri
+        - Paracambi
+        - Guapimirim
+        - Mangaratiba
+        - Itaguaí
+        - Rio Bonito
+        - Cachoeiras de Macacu
+        - Tanguá
+        - Rio das Ostras
+        - São Pedro da Aldeia
+        - Araruama
+        - Saquarema
+        - Casimiro de Abreu
+        - Silva Jardim
+        - Iguaba Grande
+        - Arraial do Cabo
+        - Cabo Frio
+        - Búzios
+        - Armação dos Búzios
+        - Armação de Búzios
+        - Armação
+        - Búzios
+        - Angra dos Reis
+        - Paraty
+        - Mangaratiba
+        - Itaguaí
+        - Seropédica
+        - Japeri
+        - Paracambi
+        - Guapimirim
+        - Magé
+        - Maricá
+        - Queimados
+        - Nilópolis
+        - Mesquita
+        - Itaboraí
+        - São João de Meriti
+        - Belford Roxo
+        - Nova Iguaçu
+        - Duque de Caxias
+        - São Gonçalo
+        - Niterói
+        - Rio de Janeiro
+    SP:
+        - São Paulo
+        - Guarulhos
+        - Campinas
+        - São Bernardo do Campo
+        - Santo André
+        - Osasco
+        - São José dos Campos
+        - Sorocaba
+        - Mauá
+        - São José do Rio Preto
+        - Ribeirão Preto
+        - Santos
+        - Mogi das Cruzes
+        - Diadema
+        - Jundiaí
+        - Piracicaba
+        - Carapicuíba
+        - Bauru
+        - Itaquaquecetuba
+        - São Vicente
+        - Franca
+        - Guarujá
+        - Taubaté
+        - Praia Grande
+        - Limeira
+        - Suzano
+        - Taboão da Serra
+        - Sumaré
+        - Barueri
+        - Embu das Artes
+        - Marília
+        - Cotia
+        - Indaiatuba
+        - Americana
+        - Hortolândia
+        - Itapevi
+        - Rio Claro
+        - Araçatuba
+        - Presidente Prudente
+        - Araraquara
+        - Ourinhos
+        - Valinhos
+        - Itu
+        - Pindamonhangaba
+        - Poá
+        - Franco da Rocha
+        - Salto
+        - Itapetininga
+        - Itatiba
+        - Votorantim
+        - Leme
+        - Tatuí
+        - Assis
+        - Jaú
+        - Várzea Paulista
+        - Birigui
+        - Santa Bárbara d'Oeste
+        - Barretos
+        - Atibaia
+        - Bragança Paulista
+        - Catanduva
+        - Itanhaém
+        - Itapeva
+        - Ituverava
+        - Jaboticabal
+        - Lins
+        - Mococa
+        - Mogi Guaçu
+        - Ourinhos
+        - Penápolis
+        - Registro
+        - São Carlos
+        - São João da Boa Vista
+        - São Roque
+        - Sertãozinho
+        - Tatuí
+        - Tupã
+    MG:
+        - Belo Horizonte
+        - Uberlândia
+        - Contagem
+        - Juiz de Fora
+        - Betim
+        - Montes Claros
+        - Ribeirão das Neves
+        - Uberaba
+        - Governador Valadares
+        - Ipatinga
+        - Sete Lagoas
+        - Divinópolis
+        - Santa Luzia
+        - Ibirité
+        - Poços de Caldas
+        - Patos de Minas
+        - Pouso Alegre
+        - Teófilo Otoni
+        - Sabará
+        - Barbacena
+        - Varginha
+        - Conselheiro Lafaiete
+        - Itabira
+        - Araguari
+        - Lavras
+        - Itajubá
+        - Passos
+        - Pará de Minas
+        - Coronel Fabriciano
+        - Muriaé
+        - Itaúna
+        - Paracatu
+        - Ituiutaba
+        - Araxá
+        - Nova Serrana
+        - João Monlevade
+        - Ubá
+        - Viçosa
+        - Alfenas
+        - Caratinga
+        - Manhuaçu
+        - Cataguases
+        - Itabirito
+        - Iturama
+        - Itapecerica
+        - Itamarandiba
+        - Itaúna
+        - Ituiutaba
+        - Janaúba
+        - Januária
+        - João Monlevade
+        - Juiz de Fora
+        - Lavras
+        - Leopoldina
+        - Machado
+        - Manhuaçu
+        - Matozinhos
+        - Montes Claros
+        - Muriaé
+        - Nova Lima
+        - Nova Serrana
+        - Ouro Preto
+        - Pará de Minas
+        - Paracatu
+        - Passos
+        - Patos de Minas
+        - Patrocínio
+        - Pedro Leopoldo
+        - Pirapora
+        - Piumhi
+        - Poços de Caldas
+        - Ponte Nova
+        - Pouso Alegre
+    ES:
+        - Vitória
+        - Vila Velha
+        - Serra
+        - Cariacica
+        - Viana
+        - Guarapari
+        - Colatina
+        - Linhares
+        - São Mateus
+        - Aracruz
+        - Cachoeiro de Itapemirim
+        - Nova Venécia
+        - Barra de São Francisco
+        - Santa Maria de Jetibá
+        - Castelo
+        - Marataízes
+        - Itapemirim
+        - Alegre
+        - Guaçuí
+        - Baixo Guandu
+        - Domingos Martins
+        - Afonso Cláudio
+        - Jaguaré
+        - Venda Nova do Imigrante
+        - Sooretama
+        - Conceição da Barra
+        - Pinheiros
+        - Anchieta
+        - Piúma
+        - Mimoso do Sul
+        - Iúna
+        - Marechal Floriano
+        - Iconha
+        - Rio Novo do Sul
+        - Pancas
+        - Montanha
+        - Muniz Freire
+        - Vargem Alta
+        - Santa Teresa
+        - Ibatiba
+        - Irupi
+        - Laranja da Terra
+        - Mantenópolis
+        - Marilândia
+        - Muqui
+        - Pedro Canário
+        - Ponto Belo
+        - Presidente Kennedy
+        - Rio Bananal
+        - Santa Leopoldina
+        - São Domingos do Norte
+        - São Gabriel da Palha
+        - São José do Calçado
+        - Vila Pavão
+        - Vila Valério
+        - Vila Velha
+        - Vitória
+        - Afonso Cláudio
+        - Água Doce do Norte
+        - Águia Branca
+        - Alegre
+        - Alfredo Chaves
+        - Alto Rio Novo
+        - Anchieta
+        - Apiacá
+        - Aracruz
+        - Atílio Vivácqua
+        - Baixo Guandu
+        - Barra de São Francisco
+        - Boa Esperança
+        - Bom Jesus do Norte
+        - Brejetuba
+        - Cachoeiro
+    RS:
+        - Porto Alegre
+        - Caxias do Sul
+        - Pelotas
+        - Canoas
+        - Santa Maria
+        - Gravataí
+        - Viamão
+        - Novo Hamburgo
+        - São Leopoldo
+        - Rio Grande
+        - Alvorada
+        - Passo Fundo
+        - Sapucaia do Sul
+        - Uruguaiana
+        - Santa Cruz do Sul
+        - Cachoeirinha
+        - Bagé
+        - Bento Gonçalves
+        - Erechim
+        - Guaíba
+        - Santana do Livramento
+        - Ijuí
+        - Alegrete
+        - Lajeado
+        - Farroupilha
+        - Sapiranga
+        - Vacaria
+        - Santiago
+        - Esteio
+        - São Borja
+        - Santo Ângelo
+        - Cruz Alta
+        - Garibaldi
+        - São Sebastião do Caí
+        - Montenegro
+    SC:
+        - Florianópolis
+        - Joinville
+        - Blumenau
+        - São José
+        - Criciúma
+        - Chapecó
+        - Itajaí
+        - Lages
+        - Jaraguá do Sul
+        - Palhoça
+        - Balneário Camboriú
+        - Brusque
+        - Tubarão
+        - São Bento do Sul
+        - Caçador
+        - Concórdia
+        - Rio do Sul
+        - Araranguá
+        - Indaial
+        - Xanxerê
+        - Videira
+        - Canoinhas
+        - São Francisco do Sul
+        - Laguna
+        - Mafra
+        - Içara
+        - Gaspar
+        - São João Batista
+        - Porto União
+        - Imbituba
+        - Timbó
+        - Navegantes
+        - Rio Negrinho
+        - Itapema
+        - São Miguel do Oeste
+        - Tijucas
+        - Guaramirim
+        - Penha
+        - São Lourenço do Oeste
+        - Capivari de Baixo
+        - São Joaquim
+        - Seara
+        - São Ludgero
+        - Otacílio Costa
+    PR:
+        - Curitiba
+        - Londrina
+        - Maringá
+        - Ponta Grossa
+        - Cascavel
+        - São José dos Pinhais
+        - Foz do Iguaçu
+        - Colombo
+        - Guarapuava
+        - Paranaguá
+        - Araucária
+        - Toledo
+        - Apucarana
+        - Pinhais
+        - Campo Largo
+        - Arapongas
+        - Almirante Tamandaré
+        - Umuarama
+        - Piraquara
+        - Cambé
+        - Campo Mourão
+        - Sarandi
+        - Francisco Beltrão
+        - Telêmaco Borba
+        - Paranavaí
+        - Cianorte
+        - Castro
+        - Rolândia
+        - Ibiporã
+        - União da Vitória
+        - Bandeirantes
+        - Lapa
+        - Palmas
+        - Medianeira
+        - Marechal Cândido Rondon
+        - Dois Vizinhos
+        - Irati
+        - Guaratuba
+        - Mandaguari
+    AC:
+        - Rio Branco
+        - Cruzeiro do Sul
+        - Sena Madureira
+        - Tarauacá
+        - Feijó
+        - Senador Guiomard
+        - Plácido de Castro
+        - Xapuri
+        - Brasiléia
+        - Senador Guiomard
+        - Sena Madureira
+    AL:
+        - Maceió
+        - Arapiraca
+        - Rio Largo
+        - Palmeira dos Índios
+        - União dos Palmares
+        - Penedo
+        - São Miguel dos Campos
+        - Campo Alegre
+        - Coruripe
+        - Delmiro Gouveia
+        - Marechal Deodoro
+        - Santana do Ipanema
+        - Atalaia
+        - Girau do Ponciano
+        - São Luís do Quitunde
+        - São Sebastião
+        - Maragogi
+        - Pilar
+        - São José da Tapera
+        - Viçosa
+        - Boca da Mata
+        - Cajueiro
+        - Capela
+        - Maribondo
+        - Murici
+        - Pão de Açúcar
+        - Porto Calvo
+        - São José da Laje
+        - Teotônio Vilela
+        - Traipu
+        - Barra de Santo Antônio
+        - Belém
+        - Branquinha
+        - Chã Preta
+        - Coité do Nóia
+        - Colônia Leopoldina
+        - Ibateguara
+        - Jacuípe
+        - Japaratinga
+        - Jaramataia
+        - Jequiá da Praia
+        - Joaquim Gomes
+        - Jundiá
+        - Junqueiro
+        - Lagoa da Canoa
+        - Limoeiro de Anadia
+        - Mar Vermelho
+        - Matriz de Camaragibe
+        - Messias
+        - Minador do Negrão
+        - Monteirópolis
+        - Olho d'Água das Flores
+        - Olho d'Água do Casado
+        - Olho d'Água Grande
+        - Pariconha
+        - Passo de Camaragibe
+        - Paulo Jacinto
+        - Piaçabuçu
+        - Pindoba
+        - Piranhas
+        - Poço das Trincheiras
+        - Porto de Pedras
+        - Porto Real do Colégio
+        - Quebrangulo
+        - Roteiro
+        - Santa Luzia do Norte
+    AP:
+        - Macapá
+        - Santana
+        - Laranjal do Jari
+        - Oiapoque
+        - Mazagão
+        - Tartarugalzinho
+        - Vitória do Jari
+        - Pedra Branca do Amapari
+        - Porto Grande
+        - Calçoene
+        - Amapá
+        - Ferreira Gomes
+        - Cutias
+        - Serra do Navio
+        - Pracuúba
+        - Itaubal
+        - Pedra Branca do Amapari
+        - Porto Grande
+        - Serra do Navio
+        - Tartarugalzinho
+    AM:
+        - Manaus
+        - Parintins
+        - Itacoatiara
+        - Manacapuru
+        - Coari
+        - Tefé
+        - Tabatinga
+        - Maués
+        - Humaitá
+        - Iranduba
+        - São Gabriel da Cachoeira
+    BA:
+        - Salvador
+        - Feira de Santana
+        - Vitória da Conquista
+        - Camaçari
+        - Itabuna
+        - Juazeiro
+        - Lauro de Freitas
+        - Ilhéus
+        - Jequié
+        - Teixeira de Freitas
+        - Barreiras
+        - Porto Seguro
+        - Simões Filho
+        - Paulo Afonso
+        - Eunápolis
+        - Santo Antônio de Jesus
+        - Valença
+        - Candeias
+        - Guanambi
+        - Jacobina
+        - Serrinha
+        - Senhor do Bonfim
+        - Dias d'Ávila
+        - Itapetinga
+        - Irecê
+        - Campo Formoso
+        - Brumado
+        - Bom Jesus da Lapa
+        - Itamaraju
+        - Conceição do Coité
+        - Cruz das Almas
+        - Catu
+        - Alagoinhas
+        - Euclides da Cunha
+        - Ipiaú
+        - Xique-Xique
+        - Camacan
+        - Seabra
+        - Ubaitaba
+        - Itaberaba
+        - Gandu
+        - Itaparica
+        - Ribeira do Pombal
+        - Santo Amaro
+        - Ipirá
+        - Maragogipe
+        - São Francisco do Conde
+        - Santo Estêvão
+        - São Sebastião do Passé
+        - Barra
+        - Canavieiras
+        - Itacaré
+        - Itajuípe
+        - Itapé
+        - Itapitanga
+        - Itarantim
+        - Itororó
+        - Jussari
+        - Jussiape
+        - Lajedo do Tabocal
+        - Macarani
+        - Maetinga
+        - Maiquinique
+        - Malhada de Pedras
+        - Manoel Vitorino
+        - Marcionílio Souza
+        - Mascote
+        - Milagres
+        - Mirante
+        - Mortugaba
+        - Nova Canaã
+        - Nova Ibiá
+        - Nova Itarana
+    CE:
+        - Fortaleza
+        - Caucaia
+        - Juazeiro do Norte
+        - Maracanaú
+        - Sobral
+        - Crato
+        - Itapipoca
+        - Maranguape
+        - Iguatu
+        - Quixadá
+        - Canindé
+        - Pacajus
+        - Quixeramobim
+        - Russas
+        - Tianguá
+        - Crateús
+        - Aracati
+        - Acaraú
+        - Morada Nova
+        - Camocim
+        - Cascavel
+        - Pacatuba
+        - Horizonte
+        - Limoeiro do Norte
+        - Eusébio
+        - Trairi
+        - São Gonçalo do Amarante
+        - Barbalha
+        - Pacoti
+        - Beberibe
+        - Icó
+        - São Benedito
+        - Jaguaribe
+        - Aquiraz
+        - Itapajé
+        - Brejo Santo
+        - Granja
+        - Varjota
+        - Mombaça
+        - Nova Russas
+        - Redenção
+        - Ubajara
+        - Viçosa do Ceará
+        - Aracoiaba
+        - Baturité
+        - Boa Viagem
+        - Camocim
+        - Campos Sales
+        - Canindé
+        - Capistrano
+        - Caridade
+        - Cascavel
+        - Caucaia
+        - Chorozinho
+        - Crateús
+        - Crato
+        - Croatá
+        - Cruz
+        - Eusébio
+        - Fortaleza
+        - Granja
+        - Horizonte
+        - Icó
+        - Iguatu
+        - Itaitinga
+        - Itapajé
+        - Itapipoca
+        - Itarema
+        - Jaguaribe
+        - Jijoca de Jericoacoara
+        - Juazeiro do Norte
+        - Limoeiro do Norte
+        - Maracanaú
+        - Maranguape
+        - Massapê
+        - Mauriti
+        - Milagres
+        - Missão Velha
+        - Mombaça
+        - Morada Nova
+    DF:
+        - Brasília
+        - Ceilândia
+        - Taguatinga
+        - Sobradinho
+        - Planaltina
+        - Gama
+        - Santa Maria
+        - Paranoá
+        - Samambaia
+        - Recanto das Emas
+        - São Sebastião
+        - Riacho Fundo
+        - Lago Sul
+        - Lago Norte
+        - Candangolândia
+        - Águas Claras
+        - Vicente Pires
+        - Fercal
+        - Itapoã
+        - Sudoeste/Octogonal
+        - Cruzeiro
+        - Noroeste
+        - Park Way
+        - SCIA
+        - SIA
+        - SOF Sul
+        - SOF Norte
+        - Varjão
+        - Setor de Indústria e Abastecimento
+        - Setor Complementar de Indústria e Abastecimento
+        - Setor de Múltiplas Atividades Sul
+        - Setor de Múltiplas Atividades Norte
+        - Setor de Armazenagem e Abastecimento Norte
+        - Setor de Armazenagem e Abastecimento Sul
+        - Setor de Recreação Pública Norte
+        - Setor de Recreação Pública Sul
+        - Setor de Postos e Motéis
+        - Setor de Oficinas e Garagens
+        - Setor de Oficinas e Garagens Norte
+        - Setor de Oficinas e Garagens Sul
+        - Setor de Oficinas e Garagens Leste
+        - Setor de Oficinas e Garagens Oeste
+        - Setor de Oficinas e Garagens Sudoeste
+        - Setor de Oficinas e Garagens Noroeste
+        - Setor de Oficinas e Garagens Centro
+    GO:
+        - Goiânia
+        - Aparecida de Goiânia
+        - Anápolis
+        - Rio Verde
+        - Luziânia
+        - Águas Lindas de Goiás
+        - Valparaíso de Goiás
+        - Trindade
+        - Formosa
+        - Novo Gama
+        - Senador Canedo
+        - Catalão
+        - Itumbiara
+        - Jataí
+        - Caldas Novas
+        - Planaltina
+        - Goianésia
+        - Porangatu
+        - Mineiros
+        - Inhumas
+        - Quirinópolis
+        - Ceres
+        - Jaraguá
+        - Uruaçu
+        - Pires do Rio
+        - Goianira
+        - Niquelândia
+        - Morrinhos
+        - Goiatuba
+        - São Luís de Montes Belos
+        - Itaberaí
+        - Palmeiras de Goiás
+        - Bela Vista de Goiás
+        - Cristalina
+        - Minaçu
+        - Piracanjuba
+        - Goianira
+        - Niquelândia
+        - Morrinhos
+        - Goiatuba
+        - São Luís de Montes Belos
+        - Itaberaí
+        - Palmeiras de Goiás
+        - Bela Vista de Goiás
+        - Cristalina
+        - Minaçu
+        - Piracanjuba
+        - Pirenópolis
+        - Goianápolis
+        - Nerópolis
+        - Hidrolândia
+        - Cidade Ocidental
+        - Padre Bernardo
+        - Santo Antônio do Descoberto
+        - Alexânia
+        - Cocalzinho de Goiás
+        - Abadiânia
+        - Alto Paraíso de Goiás
+        - Anápolis
+        - Aparecida de Goiânia
+        - Aragarças
+        - Bela Vista de Goiás
+        - Bom Jesus de Goiás
+        - Caldas Novas
+        - Catalão
+        - Ceres
+        - Cidade OcidentaL
+    MA:
+        - São Luís
+        - Imperatriz
+        - São José de Ribamar
+        - Timon
+        - Caxias
+        - Codó
+        - Paço do Lumiar
+        - Açailândia
+        - Bacabal
+        - Balsas
+        - Santa Inês
+        - Barra do Corda
+        - Pinheiro
+        - Chapadinha
+        - Santa Luzia
+        - Coroatá
+        - Grajaú
+        - Itapecuru Mirim
+        - Pedreiras
+        - Zé Doca
+        - Viana
+        - Barreirinhas
+        - Presidente Dutra
+        - Tutóia
+        - Vargem Grande
+        - Colinas
+        - São Bento
+        - Coelho Neto
+        - São Mateus do Maranhão
+        - Humberto de Campos
+        - São Domingos do Maranhão
+        - São João dos Patos
+        - Carolina
+        - Matões
+        - Pindaré-Mirim
+        - Penalva
+        - São Raimundo das Mangabeiras
+        - São Vicente Ferrer
+        - Tuntum
+        - Vitorino Freire
+        - Alcântara
+        - Anajatuba
+        - Arari
+        - Bequimão
+        - Buriticupu
+        - Cândido Mendes
+        - Cantanhede
+        - Carolina
+        - Caxias
+        - Chapadinha
+        - Codó
+        - Coelho Neto
+        - Colinas
+        - Coroatá
+        - Cururupu
+        - Dom Pedro
+        - Estreito
+        - Grajaú
+        - Humberto de Campos
+        - Imperatriz
+        - Itapecuru Mirim
+        - Lago da Pedra
+        - Matões
+        - Miranda do Norte
+        - Paço do Lumiar
+        - Parnarama
+        - Pedreiras
+        - Penalva
+        - Peritoró
+        - Pinheiro
+        - Presidente Dutra
+        - Rosário
+        - Santa Helena
+        - Santa Inês
+        - Santa Luzia
+        - São Bento
+    MT:
+        - Cuiabá
+        - Várzea Grande
+        - Rondonópolis
+        - Sinop
+        - Tangará da Serra
+        - Cáceres
+        - Sorriso
+        - Lucas do Rio Verde
+        - Primavera do Leste
+        - Barra do Garças
+        - Alta Floresta
+        - Pontes e Lacerda
+        - Nova Mutum
+        - Campo Verde
+        - Juína
+        - Guarantã do Norte
+        - Colíder
+        - Peixoto de Azevedo
+        - Jaciara
+        - Campo Novo do Parecis
+        - Sapezal
+        - Mirassol d'Oeste
+        - Nobres
+        - Poconé
+        - Nova Olímpia
+        - Barra do Bugres
+        - Diamantino
+        - Água Boa
+        - Paranatinga
+        - Canarana
+        - Querência
+        - Rosário Oeste
+        - Chapada dos Guimarães
+        - Juscimeira
+        - Porto Alegre do Norte
+        - Nova Xavantina
+        - Nova Ubiratã
+        - Nova Canaã do Norte
+        - Nova Bandeirantes
+        - Nortelândia
+        - Nova Brasilândia
+        - Nova Marilândia
+        - Nova Maringá
+        - Nova Monte Verde
+        - Nova Nazaré
+        - Nova Santa Helena
+        - Nova Lacerda
+        - Nova Guarita
+        - Nova Mutum
+        - Nova Olímpia
+        - Nova Ubiratã
+        - Nova Xavantina
+        - Novo Horizonte do Norte
+        - Novo Mundo
+        - Novo Santo Antônio
+        - Novo São Joaquim
+        - Paranaíta
+        - Paranatinga
+        - Pedra Preta
+        - Peixoto de Azevedo
+        - Planalto da Serra
+        - Poconé
+        - Pontal do Araguaia
+        - Poxoréo
+        - Primavera do Leste
+        - Querência
+        - Reserva do Cabaçal
+        - Ribeirão Cascalheira
+    MS:
+        - Campo Grande
+        - Dourados
+        - Três Lagoas
+        - Corumbá
+        - Ponta Porã
+        - Naviraí
+        - Nova Andradina
+        - Aquidauana
+        - Sidrolândia
+        - Coxim
+        - Maracaju
+        - Amambai
+        - Rio Brilhante
+        - Caarapó
+        - Miranda
+        - Chapadão do Sul
+        - São Gabriel do Oeste
+        - Porto Murtinho
+        - Ivinhema
+        - Itaporã
+        - Fátima do Sul
+        - Nova Alvorada do Sul
+        - Bataguassu
+        - Bela Vista
+        - Jardim
+        - Cassilândia
+        - Laguna Carapã
+        - Paranaíba
+        - Rio Verde de Mato Grosso
+        - Aparecida do Taboado
+        - Mundo Novo
+        - Sonora
+        - Terenos
+        - Coronel Sapucaia
+        - Guia Lopes da Laguna
+        - Iguatemi
+        - Sete Quedas
+        - Tacuru
+        - Anaurilândia
+        - Antônio João
+        - Aral Moreira
+        - Bandeirantes
+        - Batayporã
+        - Bodoquena
+        - Bonito
+        - Brasilândia
+        - Caarapó
+        - Camapuã
+        - Caracol
+        - Corguinho
+        - Coronel Sapucaia
+        - Deodápolis
+        - Dois Irmãos do Buriti
+        - Douradina
+        - Figueirão
+        - Glória de Dourados
+        - Guia Lopes da Laguna
+        - Iguatemi
+        - Inocência
+        - Itaporã
+        - Itaquiraí
+        - Ivinhema
+        - Japorã
+        - Jaraguari
+        - Jateí
+        - Juti
+        - Ladário
+        - Laguna Carapã
+        - Maracaju
+        - Miranda
+        - Mundo Novo
+        - Naviraí
+    MS:
+        - Campo Grande
+        - Dourados
+        - Três Lagoas
+        - Corumbá
+        - Ponta Porã
+        - Naviraí
+        - Nova Andradina
+        - Aquidauana
+        - Sidrolândia
+        - Coxim
+        - Maracaju
+        - Amambai
+        - Rio Brilhante
+        - Caarapó
+        - Miranda
+        - Chapadão do Sul
+        - São Gabriel do Oeste
+        - Porto Murtinho
+        - Ivinhema
+        - Itaporã
+        - Fátima do Sul
+        - Nova Alvorada do Sul
+        - Bataguassu
+        - Bela Vista
+        - Jardim
+        - Cassilândia
+        - Laguna Carapã
+        - Paranaíba
+        - Rio Verde de Mato Grosso
+        - Aparecida do Taboado
+        - Mundo Novo
+        - Sonora
+        - Terenos
+        - Coronel Sapucaia
+        - Guia Lopes da Laguna
+        - Iguatemi
+        - Sete Quedas
+        - Tacuru
+        - Anaurilândia
+        - Antônio João
+        - Aral Moreira
+        - Bandeirantes
+        - Batayporã
+        - Bodoquena
+        - Bonito
+        - Brasilândia
+        - Caarapó
+        - Camapuã
+        - Caracol
+        - Corguinho
+        - Coronel Sapucaia
+        - Deodápolis
+        - Dois Irmãos do Buriti
+        - Douradina
+        - Figueirão
+        - Glória de Dourados
+        - Guia Lopes da Laguna
+        - Iguatemi
+        - Inocência
+        - Itaporã
+        - Itaquiraí
+        - Ivinhema
+        - Japorã
+        - Jaraguari
+        - Jateí
+        - Juti
+        - Ladário
+        - Laguna Carapã
+        - Maracaju
+        - Miranda
+        - Mundo Novo
+        - Naviraí
+    PA:
+        - Belém
+        - Ananindeua
+        - Santarém
+        - Marabá
+        - Parauapebas
+        - Castanhal
+        - Abaetetuba
+        - Marituba
+        - Cametá
+        - Bragança
+        - Barcarena
+        - Altamira
+        - Tucuruí
+        - Paragominas
+        - Tailândia
+        - Breves
+        - Itaituba
+        - Redenção
+        - Moju
+        - Oriximiná
+        - Novo Repartimento
+        - Santana do Araguaia
+        - Breu Branco
+        - Igarapé-Miri
+        - Ipixuna do Pará
+        - Uruará
+        - Monte Alegre
+        - Acará
+        - Rondon do Pará
+        - Capitão Poço
+        - Baião
+        - Tomé-Açu
+        - Portel
+        - Muaná
+        - Curuçá
+        - Vigia
+        - São Miguel do Guamá
+        - Alenquer
+        - Terra Santa
+        - São Félix do Xingu
+        - Juruti
+        - Bagre
+        - São Sebastião da Boa Vista
+        - São Domingos do Capim
+        - Jacundá
+        - São Geraldo do Araguaia
+        - Irituia
+        - Augusto Corrêa
+        - Ulianópolis
+        - São João de Pirabas
+        - Curralinho
+        - Chaves
+        - São Caetano de Odivelas
+        - Santa Maria do Pará
+        - São João do Araguaia
+        - Marapanim
+        - São Francisco do Pará
+        - São João da Ponta
+        - São Sebastião do Uatumã
+    PB:
+        - João Pessoa
+        - Campina Grande
+        - Santa Rita
+        - Patos
+        - Bayeux
+        - Sousa
+        - Cajazeiras
+        - Guarabira
+        - Cabedelo
+        - Sapé
+        - Mamanguape
+        - Queimadas
+        - Pombal
+        - Monteiro
+        - Esperança
+        - Rio Tinto
+        - Solânea
+        - Itabaiana
+        - Catolé do Rocha
+        - Alagoa Grande
+        - Pedras de Fogo
+        - Alagoa Nova
+        - Bananeiras
+        - Cuité
+        - Areia
+        - Mari
+        - Araruna
+        - Itaporanga
+        - Conceição
+        - Princesa Isabel
+        - Alhandra
+        - Belém
+        - Boqueirão
+        - Brejo do Cruz
+        - Caaporã
+        - Cabaceiras
+        - Cacimba de Dentro
+        - Caiçara
+        - Coremas
+        - Cruz do Espírito Santo
+        - Curral Velho
+        - Desterro
+        - Duas Estradas
+        - Fagundes
+        - Gurinhém
+        - Ingá
+        - Itapororoca
+        - Jacaraú
+        - Juarez Távora
+        - Lagoa Seca
+        - Lucena
+        - Malta
+        - Mamanguape
+        - Marcação
+        - Massaranduba
+        - Mataraca
+        - Mogeiro
+        - Mulungu
+        - Natuba
+        - Nova Floresta
+        - Nova Olinda
+        - Olivedos
+        - Ouro Velho
+        - Pedra Lavrada
+        - Pedras de Fogo
+        - Piancó
+        - Pilões
+        - Pilõezinhos
+        - Pirpirituba
+        - Pitimbu
+        - Riachão
+        - Riachão do Bacamarte
+        - Riachão do Poço
+        - Riacho de Santo Antônio
+        - Riacho dos Cavalos
+        - Rio Tinto
+        - Salgado de São Félix
+        - Santa
+    PE:
+        - Recife
+        - Jaboatão dos Guararapes
+        - Olinda
+        - Caruaru
+        - Petrolina
+        - Paulista
+        - Cabo de Santo Agostinho
+        - Camaragibe
+        - Garanhuns
+        - Vitória de Santo Antão
+        - Igarassu
+        - São Lourenço da Mata
+        - Santa Cruz do Capibaribe
+        - Abreu e Lima
+        - Ipojuca
+        - Serra Talhada
+        - Araripina
+        - Gravatá
+        - Carpina
+        - Goiana
+        - Belo Jardim
+        - Arcoverde
+        - Ouricuri
+        - Escada
+        - Pesqueira
+        - Surubim
+        - Palmares
+        - Bezerros
+        - Buíque
+        - Timbaúba
+        - Brejo da Madre de Deus
+        - Bom Conselho
+        - Lajedo
+        - Custódia
+        - São Bento do Una
+        - Bom Jardim
+        - Águas Belas
+        - Bodocó
+        - Paudalho
+        - Barreiros
+        - Catende
+        - Ribeirão
+        - São José do Egito
+        - Santa Maria da Boa Vista
+        - Lagoa do Carro
+        - Cupira
+        - Belém de Maria
+        - Itapissuma
+        - Jurema
+        - Lagoa do Itaenga
+        - Macaparana
+        - Maraial
+        - Orobó
+        - Pombos
+        - Quipapá
+        - Riacho das Almas
+        - Salgadinho
+        - Sanharó
+        - São Vicente Ferrer
+        - Sertânia
+        - Tacaimbó
+        - Taquaritinga do Norte
+        - Trindade
+        - Vertente do Lério
+        - Vertentes
+        - Xexéu
+        - Água Preta
+        - Alagoinha
+        - Aliança
+        - Altinho
+        - Amaraji
+        - Angelim
+        - Araçoiaba
+    PI:
+        - Teresina
+        - Parnaíba
+        - Picos
+        - Floriano
+        - Piripiri
+        - Campo Maior
+        - União
+        - São Raimundo Nonato
+        - Barras
+        - Luzilândia
+        - Oeiras
+        - Esperantina
+        - José de Freitas
+        - São João do Piauí
+        - Batalha
+        - Corrente
+        - Pedro II
+        - Cocal
+        - Valença do Piauí
+        - Uruçuí
+        - Piracuruca
+        - São Miguel do Tapuio
+        - Castelo do Piauí
+        - Altos
+        - Simões
+        - Fronteiras
+        - Campo Maior
+        - São João do Piauí
+        - Batalha
+        - Corrente
+        - Pedro II
+        - Cocal
+        - Valença do Piauí
+        - Uruçuí
+        - Piracuruca
+        - São Miguel do Tapuio
+        - Castelo do Piauí
+        - Altos
+        - Simões
+        - Fronteiras
+        - Oeiras
+        - Esperantina
+        - José de Freitas
+        - Barras
+        - Luzilândia
+        - Parnaíba
+        - Piripiri
+        - Floriano
+        - Picos
+        - Teresina
+        - São Raimundo Nonato
+        - Campo Maior
+        - União
+    RN:
+        - Natal
+        - Mossoró
+        - Parnamirim
+        - São Gonçalo do Amarante
+        - Ceará-Mirim
+        - Macaíba
+        - Caicó
+        - Açu
+        - Currais Novos
+        - São José de Mipibu
+        - Santa Cruz
+        - Nova Cruz
+        - Apodi
+        - João Câmara
+        - Touros
+        - Macau
+        - Pau dos Ferros
+        - Extremoz
+        - Canguaretama
+        - Santo Antônio
+        - Areia Branca
+    RO:
+        - Porto Velho
+        - Ji-Paraná
+        - Ariquemes
+        - Vilhena
+        - Cacoal
+        - Guajará-Mirim
+        - Jaru
+        - Rolim de Moura
+        - Pimenta Bueno
+        - Ouro Preto do Oeste
+        - Machadinho d'Oeste
+        - Buritis
+        - Nova Mamoré
+        - São Miguel do Guaporé
+        - Candeias do Jamari
+        - Alta Floresta d'Oeste
+        - Espigão d'Oeste
+        - Presidente Médici
+        - Alto Paraíso
+        - Colorado do Oeste
+    RR:
+        - Boa Vista
+        - Rorainópolis
+        - Caracaraí
+        - São Luiz
+        - Bonfim
+        - Cantá
+        - Mucajaí
+        - Pacaraima
+        - Uiramutã
+        - Normandia
+        - Caroebe
+        - Iracema
+        - São João da Baliza
+        - Amajari
+        - Alto Alegre
+        - São Luiz
+        - Bonfim
+        - Cantá
+        - Mucajaí
+        - Pacaraima
+        - Uiramutã
+        - Normandia
+        - Caroebe
+        - Iracema
+        - São João da Baliza
+        - Amajari
+        - Alto Alegre
+    SE:
+        - Aracaju
+        - Nossa Senhora do Socorro
+        - Lagarto
+        - Itabaiana
+        - São Cristóvão
+        - Estância
+        - Tobias Barreto
+        - Itabaianinha
+        - Simão Dias
+        - Nossa Senhora da Glória
+        - Poço Redondo
+        - Capela
+        - Propriá
+        - Canindé de São Francisco
+        - Umbaúba
+        - Boquim
+        - Cristinápolis
+        - Nossa Senhora das Dores
+        - Ribeirópolis
+        - Laranjeiras
+        - Maruim
+        - Porto da Folha
+        - Tomar do Geru
+        - Salgado
+        - Carira
+        - Aquidabã
+        - Neópolis
+        - Japaratuba
+        - Rosário do Catete
+        - Moita Bonita
+        - Arauá
+        - Pedrinhas
+        - Malhador
+        - Indiaroba
+        - Santa Luzia do Itanhy
+        - Riachão do Dantas
+        - Areia Branca
+        - Campo do Brito
+        - Gararu
+        - General Maynard
+        - Gracho Cardoso
+        - Ilha das Flores
+        - Itaporanga d'Ajuda
+        - Japoatã
+        - Maruim
+        - Muribeca
+        - Pacatuba
+        - Pedra Mole
+        - Pinhão
+        - Pirambu
+        - Poço Verde
+        - Riachuelo
+        - Santana do São Francisco
+        - Santo Amaro das Brotas
+        - São Domingos
+        - São Francisco
+        - São Miguel do Aleixo
+        - Siriri
+        - Telha
+        - Tomar do Geru
+        - Umbaúba
+    TO:
+        - Palmas
+        - Araguaína
+        - Gurupi
+        - Porto Nacional
+        - Paraíso do Tocantins
+        - Araguatins
+        - Colinas do Tocantins
+        - Guaraí
+        - Dianópolis
+        - Tocantinópolis
+        - Miracema do Tocantins
+        - Formoso do Araguaia
+        - Augustinópolis
+        - Taguatinga
+        - Alvorada
+        - Xambioá
+        - Wanderlândia
+        - Ananás
+        - Pedro Afonso
+        - Goiatins
+        - Araguaçu
+        - Arraias
+        - Peixe
+        - Cristalândia
+        - São Miguel do Tocantins
+        - Colméia
+        - Pium
+        - Arapoema
+        - Ponte Alta do Tocantins
+        - Araguacema
+        - Araguaína
+        - Araguatins
+        - Arapoema
+        - Arraias
+        - Augustinópolis
+        - Axixá do Tocantins
+        - Colinas do Tocantins
+        - Dianópolis
+        - Guaraí
+        - Gurupi
+        - Miracema do Tocantins
+        - Palmas
+        - Paraíso do Tocantins
+        - Pedro Afonso
+        - Peixe
+        - Porto Nacional
+        - Taguatinga
+        - Tocantinópolis
+        - Wanderlândia
+        - Xambioá
+        - Alvorada
+        - Ananás
+        - Araguaçu
+        - Araguanã
+        - Araguatins
+        - Arapoema
+        - Arraias
+        - Augustinópolis
+        - Axixá do Tocantins
+        - Colinas do Tocantins
+        - Dianópolis
+        - Guaraí
+        - Gurupi
+        - Miracema do Tocantins
+        - Palmas
+        - Paraíso do Tocantins
+        - Pedro Afonso
+        - Peixe
+        - Porto Nacional

@@ -1,14 +1,13 @@
 require_relative 'support/name'
 require_relative 'support/date'
 require_relative 'support/address'
-require_relative 'support/document'
+require_relative 'support/document_generator'
 
 module Randamu
   class  Person < Base
     extend Name
     extend Date
-    extend Address
-    extend Document
+    extend DocumentGenerator
     # TODO add more methods to generate random data
     # - Add nickname - how?
     # - Add email - email in person?
