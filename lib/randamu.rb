@@ -13,10 +13,12 @@ module Randamu
         keys.reduce(DATA) { |data, k| data[k] }
       end
 
+      def load_keys(master_key)
+        keys = master_key.split('.')
+        keys.reduce(DATA) { |data, k| data[k] }.keys
+      end
     end
   end
 end
 
 Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/**/*.rb')).each { |file| require file }
-
-puts Randamu::Person.full_name

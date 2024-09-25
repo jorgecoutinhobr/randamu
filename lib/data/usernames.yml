@@ -3,3 +3,7 @@ usernames:
     - 20Matar70fugir
     - PalhaçoLoko
     - PacoquinhaMaldita
+  default:
+    - user1
+    - user2
+    - user3

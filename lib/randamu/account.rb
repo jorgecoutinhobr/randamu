@@ -3,7 +3,7 @@ require_relative 'support/name'
 module Randamu
   class Account < Base
     extend Name
-    PASSWORD = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
     class << self
@@ -15,17 +15,21 @@ module Randamu
       def password(length: 8, special: true, numeric: true)
         generate_password(length, special, numeric)
       end
-      # TODO - SPECIAL CHARACTERS WILL BE ALLOWED IN EMAILS?
+
       def email
-        "#{first_name.downcase}.#{last_name.downcase}@#{load_data('emails.domains').sample}"
+        "#{normalize(first_name.downcase)}#{generate_connection_symbol}#{last_name.downcase}@#{load_data('emails.domains').sample}"
       end
 
       private
         def generate_password(length, special, numeric)
-          password = PASSWORD
+          password = ALPHABET
           password += SPEACIAL if special
           password += NUMERIC if numeric
           password.split('').shuffle[0..length].join
+        end
+
+        def generate_connection_symbol
+          ['-', '_', '.'].sample
         end
     end
   end

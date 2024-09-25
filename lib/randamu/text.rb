@@ -16,8 +16,12 @@ module Randamu
         end
       end
 
-      def phrase(size: 4)
-        size.times.map { word }.join(' ').capitalize + '.'
+      def title(words: 3)
+        words.times.map { word }.join(' ').capitalize
+      end
+
+      def phrase(words: 4)
+        words.times.map { word }.join(' ').capitalize + '.'
       end
 
       def paragraph(phrases: 8)
@@ -27,6 +31,8 @@ module Randamu
       def big_text(paragraphs: 4)
         paragraphs.times.map { paragraph }.join("\n\n")
       end
+
+      alias :frase :phrase
 
       private
         def load_db

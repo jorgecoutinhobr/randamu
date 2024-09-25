@@ -4,7 +4,7 @@ module Randamu
 
     def first_name(gender: nil)
       return load_db(gender).sample if !gender.nil? && GENDER.include?(gender.to_s)
-      binding.pry
+
       gender = GENDER.sample
       load_db(gender).sample
     end
@@ -17,14 +17,13 @@ module Randamu
       "#{first_name(gender: gender)} #{last_name}"
     end
 
-    def custom_name(length: 0, gender: nil)
+    def custom_name(length: 3, gender: nil)
       generate_custom_name(first_name(gender: gender), length)
     end
 
     private
       def load_db(type)
         return load_data("names.#{type}_name") unless type.nil?
-        binding.pry
         type = GENDER.sample
         load_data("names.#{type}_name")
       end
@@ -37,6 +36,11 @@ module Randamu
         end
 
         initial_name
+      end
+
+    # Improved method to normalize names
+      def normalize(n)
+        n.gsub(/[^a-zA-Z]/, 'a')
       end
   end
 end
