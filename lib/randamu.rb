@@ -1,5 +1,7 @@
 require 'yaml'
 require 'pry'
+require 'date'
+
 module Randamu
   DATA_DIR = File.join(__dir__, 'data')
   DATA = Dir.glob(File.join(DATA_DIR, '**', '*.yml')).each_with_object({}) do |file, data|
@@ -21,4 +23,6 @@ module Randamu
   end
 end
 
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/**/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/support/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/generators/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/core/*.rb')).each { |file| require file }

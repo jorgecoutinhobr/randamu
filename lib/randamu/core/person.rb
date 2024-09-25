@@ -1,11 +1,8 @@
-require_relative 'support/name'
-require_relative 'support/document_generator'
-require 'date'
-
 module Randamu
   class  Person < Base
-    extend Name
+    extend NameGenerator
     extend DocumentGenerator
+    extend AcademicDataGenerator
     class << self
       def age(min: 18, max: 80)
         rand(min..max)

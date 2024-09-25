@@ -1,8 +1,6 @@
-require_relative 'support/name'
-
 module Randamu
   class Account < Base
-    extend Name
+    extend NameGenerator
     ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'

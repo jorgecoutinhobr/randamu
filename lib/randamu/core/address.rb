@@ -1,4 +1,3 @@
-
 module Randamu
   class Address < Base
 
@@ -29,14 +28,14 @@ module Randamu
       end
 
       private
-      def load_teste(key, state: nil)
-        return load_data("map.#{key}.#{state}") if state
-        load_data("map.#{key}.#{Dictionary::STATE.keys.sample}")
-      end
+        def load_teste(key, state: nil)
+          return load_data("map.#{key}.#{state}") if state
+          load_data("map.#{key}.#{Dictionary::STATE.keys.sample}")
+        end
 
-      def number
-        rand(1..9999)
-      end
+        def number
+          rand(1..9999)
+        end
     end
   end
 end
