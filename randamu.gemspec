@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.version     = '0.0.0'
   s.authors     = ['Jorge Coutinho']
   s.email       = 'jorgecoutinhodsn@gmail.com'
-  s.summary     = 'Random data generator'
-  s.description = 'Random data generator'
+  s.summary     = 'Random data generators'
+  s.description = 'Random data generators'
   s.files       = Dir['lib/**/*']
   s.homepage    = 'https://rubygems.org/gems/randamu'
   s.license     = 'MIT'

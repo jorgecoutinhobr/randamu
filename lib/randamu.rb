@@ -1,4 +1,6 @@
 require 'yaml'
+require 'pry'
+require 'date'
 
 module Randamu
   DATA_DIR = File.join(__dir__, 'data')
@@ -12,8 +14,15 @@ module Randamu
         keys = key.split('.')
         keys.reduce(DATA) { |data, k| data[k] }
       end
+
+      def load_keys(master_key)
+        keys = master_key.split('.')
+        keys.reduce(DATA) { |data, k| data[k] }.keys
+      end
     end
   end
 end
 
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/**/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/support/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/generators/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/core/*.rb')).each { |file| require file }
