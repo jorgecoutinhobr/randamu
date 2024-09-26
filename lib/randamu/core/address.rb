@@ -5,13 +5,16 @@ module Randamu
 
     # TODO COMO IMPLEMENTAR UM METODO UNICO DE LOADING DE DADOS
     class << self
-
       def full_address
         "#{street}, #{number}, #{city}, #{state} - #{zip_code}"
       end
 
       def street
         load_data('map.streets').sample
+      end
+
+      def additional_address_data
+        load_data('map.additional_address_data').sample
       end
 
       def zip_code

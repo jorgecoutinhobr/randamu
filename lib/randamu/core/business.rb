@@ -1,4 +1,7 @@
 module Randamu
-  class Business
+  class Business < Base
+    extend BusinessDocumentsGenerator
+    class << self
+    end
   end
 end

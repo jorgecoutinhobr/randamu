@@ -1,8 +1,7 @@
 module Randamu
   class  Person < Base
     extend NameGenerator
-    extend DocumentGenerator
-    extend AcademicDataGenerator
+    extend PersonalDocumentGenerator
     class << self
       def age(min: 18, max: 80)
         rand(min..max)

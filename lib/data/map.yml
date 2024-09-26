@@ -1,4 +1,44 @@
 map:
+  additional_address_data:
+    - Bloco A
+    - Bloco B
+    - Bloco C
+    - Bloco D
+    - Bloco E
+    - Bloco F
+    - Bloco G
+    - Bloco H
+    - Bloco I
+    - Bloco J
+    - Bloco K
+    - Bloco L
+    - Bloco M
+    - Bloco N
+    - Bloco O
+    - Bloco P
+    - Bloco Q
+    - Bloco R
+    - Bloco S
+    - Bloco T
+    - Bloco U
+    - Bloco V
+    - Bloco W
+    - Bloco X
+    - Bloco Y
+    - Bloco Z
+    - Prox. ao Mercado Municipal
+    - Prox. ao Banco do Brasil
+    - Prox. a Escola Técnica
+    - Prox. a Igreja Matriz
+    - Prox. a Praça Central
+    - Prox. a Rodoviária
+    - Prox. a Estação de Trem
+    - Prox. a Estação de Metrô
+    - Prox. a Prefeitura
+    - Prox. a Câmara Municipal
+    - Prox. a Delegacia
+    - Prox. a Biblioteca Municipal
+    - Prox. a Faculdade de Medicina
   zip_codes:
     - 20000-000
     - 21000-000
