@@ -1,0 +1,60 @@
+academic:
+  universities:
+    - Universidade Federal de Minas Gerais
+    - Universidade Federal de Juiz de Fora
+    - Universidade Federal Fluminense
+    - Universidade Federal do Rio de Janeiro
+    - Universidade do estado do Rio de Janeiro
+    - Universidade Federal do Espírito Santo
+    - Universidade Federal de São Paulo
+    - Universidade Federal da Bahia
+  courses:
+    - Engenharia de Computação
+    - Ciência da Computação
+    - Sistemas de Informação
+    - Análise e Desenvolvimento de Sistemas
+    - Engenharia de Software
+    - Engenharia elétrica
+    - Engenharia de Telecomunicações
+    - Engenharia de Controle e Automação
+    - Engenharia Mecânica
+    - Engenharia Civil
+    - Engenharia de Produção
+    - Engenharia Química
+    - Engenharia de Alimentos
+    - Nutrição
+    - Medicina
+    - Enfermagem
+    - Fisioterapia
+    - Odontologia
+    - Farmácia
+    - Biomedicina
+    - Biologia
+    - Química
+    - Física
+    - Matemática
+    - Estatística
+    - Geografia
+    - História
+    - Filosofia
+    - Letras
+    - Pedagogia
+    - Psicologia
+    - Serviço Social
+    - Direito
+    - Administração
+    - Economia
+    - Contabilidade
+    - Turismo
+    - Hotelaria
+    - Gastronomia
+    - Design
+    - Arquitetura
+    - Urbanismo
+  schools:
+    - Colégio Militar de Belo Horizonte
+    - Colégio Militar de Juiz de Fora
+    - Colégio Militar do Rio de Janeiro
+    - Colégio Pedro II
+    - FAETEC
+    - CEFET
