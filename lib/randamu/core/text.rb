@@ -1,8 +1,6 @@
 module Randamu
   class Text < Base
     class << self
-      WORD_TYPES = %w(upcase downcase capitalize)
-
       def word(format: nil)
         case format
         when :upcase
