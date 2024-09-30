@@ -5,8 +5,6 @@ module Randamu
         rand(min..max)
         # '.2f' % rand(min..max) -> to get a float number with 2 decimal places but return a string
       end
-
-      alias :numero :number
     end
   end
 end

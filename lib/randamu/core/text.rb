@@ -4,13 +4,13 @@ module Randamu
       def word(format: nil)
         case format
         when :upcase
-          load_db.sample.upcase
+          load_data('texts.lorem').sample.upcase
         when :downcase
-          load_db.sample.downcase
+          load_data('texts.lorem').sample.downcase
         when :capitalize
-          load_db.sample.capitalize
+          load_data('texts.lorem').sample.capitalize
         else
-          load_db.sample
+          load_data('texts.lorem').sample
         end
       end
 
@@ -29,16 +29,6 @@ module Randamu
       def text(paragraphs: 4)
         paragraphs.times.map { paragraph }.join("\n\n")
       end
-
-      alias :palavra :word
-      alias :titulo :title
-      alias :frase :phrase
-      alias :paragrafo :paragraph
-      alias :texto :text
-      private
-        def load_db
-          load_data('texts.lorem')
-        end
     end
   end
 end

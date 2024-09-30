@@ -1,12 +1,8 @@
 module Randamu
   class Map < Base
-    # TODO  refatorar total
-    # TODO IMPLEMENTAR POR ESTADO  / SEPARAR ESTADOS POR REGIÃO
-
-    # TODO COMO IMPLEMENTAR UM METODO UNICO DE LOADING DE DADOS
     class << self
       def full_address
-        "#{street}, #{number}, #{city}, #{state} - #{zip_code}"
+        "#{street}, #{rand(1..9999)}, #{city}, #{state} - #{zip_code}"
       end
 
       def street
@@ -21,26 +17,21 @@ module Randamu
         load_data('map.zip_codes').sample
       end
 
-      def state(region: nil)
-        Dictionary::REGIONS[region].sample if region
+      def state(region: nil, acronym: false)
+        state_acronym = region ? Dictionary::REGIONS[region].sample : Dictionary::STATES.keys.sample
+        return state_acronym if acronym
 
-        data = load_data('map.states')
-        data.map { |k, _| Dictionary::STATES[k] }.sample
+        Dictionary::STATES[state_acronym]
       end
 
       def city(state: nil)
-        load_teste(:states, state: state).sample
+        return load_data("map.states.#{state}").sample if state
+        load_data("map.states.#{Dictionary::STATES.keys.sample}").sample
       end
 
-      private
-        def load_teste(key, state: nil)
-          return load_data("map.#{key}.#{state}") if state
-          load_data("map.#{key}.#{Dictionary::STATES.keys.sample}")
-        end
-
-        def number
-          rand(1..9999)
-        end
+      def country
+        load_data('map.countries').sample
+      end
     end
   end
 end

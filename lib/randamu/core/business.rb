@@ -3,11 +3,10 @@ module Randamu
     class << self
       def company_name ; end
       def profession ; end
-
-      # CRIAR CLASSE SUBSCRIPTION
-      def sub(*options)
-        load_data('map.states.RJ').sample
-      end
+      def industry ; end
+      def product ; end
+      def service ; end
+      def subscription ; end
     end
   end
 end

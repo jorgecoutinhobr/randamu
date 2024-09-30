@@ -30,10 +30,10 @@ module Dictionary
   }.freeze
 
   REGIONS = {
-    'sudeste' => %w[SP RJ MG ES],
-    'sul' => %w[RS SC PR],
-    'centro-oeste' => %w[GO MT MS DF],
-    'norte' => %w[AM RR AP PA TO RO AC],
-    'nordeste' => %w[MA PI CE RN PB PE AL SE BA]
+    sudeste: %w[SP RJ MG ES],
+    sul: %w[RS SC PR],
+    centro_oeste: %w[GO MT MS DF],
+    norte: %w[AM RR AP PA TO RO AC],
+    nordeste: %w[MA PI CE RN PB PE AL SE BA]
   }.freeze
 end
