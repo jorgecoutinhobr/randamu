@@ -4,26 +4,34 @@ module Randamu
     ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
+
     class << self
-      def username(type: :funnies)
-        load_data("usernames.#{type}").sample
+      def username(type: :default)
+        load_data("names.usernames.#{type}").sample
       end
 
-      # TODO - Implement password generation number.rb of numeric, number.rb of special characters, only numeric? only special characters?
-      def password(length: 8, special: true, numeric: true)
-        generate_password(length, special, numeric)
+      def password(length: 8, special: true, numeric: true, alphabet: true)
+        generate_password(length, special, numeric, alphabet)
       end
 
       def email
         "#{normalize(first_name.downcase)}#{generate_connection_symbol}#{last_name.downcase}@#{load_data('emails.domains').sample}"
       end
 
-      def phone
+      def phone(state: Dictionary::STATES.keys.sample, country_code: false)
+        return "+55 (#{load_data("phone.ddd.#{state}").sample}) " + '9' + rand(10000000..99999999).to_s if country_code
+        "(#{load_data("phone.ddd.#{state}").sample}) " + '9' + rand(10000000..99999999).to_s
+      end
+
+      def phone_only_numbers(state: Dictionary::STATES.keys.sample, country_code: false)
+        return "55#{load_data("phone.ddd.#{state}").sample}" + '9' + rand(10000000..99999999).to_s if country_code
+        "#{load_data("phone.ddd.#{state}").sample}" + '9' + rand(10000000..99999999).to_s
       end
 
       private
-        def generate_password(length, special, numeric)
-          password = ALPHABET
+        def generate_password(length, special, numeric, alphabet)
+          password = ''
+          password += ALPHABET if alphabet
           password += SPEACIAL if special
           password += NUMERIC if numeric
           password.split('').shuffle[1..length].join
