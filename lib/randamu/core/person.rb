@@ -4,7 +4,7 @@ module Randamu
     class << self
       def profession ; end
       def blood_type ; end
-
+      def gender ; end
 
     end
   end
