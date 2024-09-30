@@ -58,3 +58,44 @@ academic:
     - Colégio Pedro II
     - FAETEC
     - CEFET
+  professions:
+    - Advogado
+    - Arquiteto
+    - Engenheiro Civil
+    - Médico
+    - Enfermeiro
+    - Professor
+    - Psicólogo
+    - Farmacêutico
+    - Dentista
+    - Veterinário
+    - Fisioterapeuta
+    - Nutricionista
+    - Jornalista
+    - Publicitário
+    - Designer Gráfico
+    - Programador
+    - Analista de Sistemas
+    - Administrador
+    - Contador
+    - Economista
+    - Bibliotecário
+    - Assistente Social
+    - Biólogo
+    - Químico
+    - Físico
+    - Matemático
+    - Estatístico
+    - Geógrafo
+    - Historiador
+    - Filósofo
+    - Sociólogo
+    - Antropólogo
+    - Arqueólogo
+    - Museólogo
+    - Pedagogo
+    - Educador Físico
+    - Engenheiro de Produção
+    - Engenheiro de Alimentos
+    - Engenheiro Químico
+    - Engenheiro de software

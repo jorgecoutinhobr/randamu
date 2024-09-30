@@ -1,6 +1,7 @@
 module Randamu
   class Account < Base
     extend NameGenerator
+
     ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
@@ -15,17 +16,17 @@ module Randamu
       end
 
       def email
-        "#{normalize(first_name.downcase)}#{generate_connection_symbol}#{last_name.downcase}@#{load_data('emails.domains').sample}"
+        "#{normalize(first_name.downcase)}#{generate_connection_symbol}#{normalize(last_name.downcase)}@#{load_data('emails.domains').sample}"
       end
 
       def phone(state: Dictionary::STATES.keys.sample, country_code: false)
-        return "+55 (#{load_data("phone.ddd.#{state}").sample}) " + '9' + rand(10000000..99999999).to_s if country_code
-        "(#{load_data("phone.ddd.#{state}").sample}) " + '9' + rand(10000000..99999999).to_s
+        return "+55 (#{load_data("phone.ddd.#{state}").sample}) " + phone_number if country_code
+        "(#{load_data("phone.ddd.#{state}").sample}) " + phone_number
       end
 
       def phone_only_numbers(state: Dictionary::STATES.keys.sample, country_code: false)
-        return "55#{load_data("phone.ddd.#{state}").sample}" + '9' + rand(10000000..99999999).to_s if country_code
-        "#{load_data("phone.ddd.#{state}").sample}" + '9' + rand(10000000..99999999).to_s
+        return "55#{load_data("phone.ddd.#{state}").sample}" + phone_number if country_code
+        "#{load_data("phone.ddd.#{state}").sample}" + phone_number
       end
 
       private
@@ -40,6 +41,13 @@ module Randamu
         def generate_connection_symbol
           ['-', '_', '.'].sample
         end
+
+        def phone_number
+          '9' + rand(10000000..99999999).to_s
+        end
     end
+
+    # private methods from NameGenerator
+    private_class_method :first_name, :last_name, :full_name, :custom_name
   end
 end

@@ -23,6 +23,7 @@ module NameGenerator
   private
     def load_db(type)
       return load_data("names.#{type}_name") unless type.nil?
+
       type = GENDER.sample
       load_data("names.#{type}_name")
     end
@@ -37,7 +38,6 @@ module NameGenerator
       initial_name
     end
 
-    # Improved method to normalize names
     def normalize(n)
       n.gsub(/[^a-zA-Z]/, 'a')
     end
