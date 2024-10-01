@@ -1638,3 +1638,195 @@ map:
       - Pedro Afonso
       - Peixe
       - Porto Nacional
+  countries:
+    - Brasil
+    - Argentina
+    - Chile
+    - Paraguai
+    - Uruguai
+    - Bolívia
+    - Peru
+    - Colômbia
+    - Venezuela
+    - Equador
+    - Guiana
+    - Suriname
+    - Guiana Francesa
+    - México
+    - Estados Unidos
+    - Canadá
+    - Guatemala
+    - Honduras
+    - El Salvador
+    - Nicarágua
+    - Costa Rica
+    - Panamá
+    - Cuba
+    - República Dominicana
+    - Haiti
+    - Jamaica
+    - Trinidad e Tobago
+    - Bahamas
+    - Barbados
+    - São Vicente e Granadinas
+    - Santa Lúcia
+    - Granada
+    - Dominica
+    - São Cristóvão e Nevis
+    - Belize
+    - Alemanha
+    - França
+    - Reino Unido
+    - Itália
+    - Espanha
+    - Portugal
+    - Países Baixos
+    - Bélgica
+    - Suíça
+    - Áustria
+    - Suécia
+    - Noruega
+    - Dinamarca
+    - Finlândia
+    - Islândia
+    - Irlanda
+    - Polônia
+    - República Tcheca
+    - Eslováquia
+    - Hungria
+    - Romênia
+    - Bulgária
+    - Grécia
+    - Turquia
+    - Rússia
+    - Ucrânia
+    - Bielorrússia
+    - Moldávia
+    - Estônia
+    - Letônia
+    - Lituânia
+    - Croácia
+    - Eslovênia
+    - Bósnia e Herzegovina
+    - Sérvia
+    - Montenegro
+    - Macedônia do Norte
+    - Albânia
+    - Kosovo
+    - Chipre
+    - Malta
+    - Austrália
+    - Nova Zelândia
+    - Japão
+    - Coreia do Sul
+    - China
+    - Índia
+    - Paquistão
+    - Bangladesh
+    - Sri Lanka
+    - Nepal
+    - Butão
+    - Maldivas
+    - Afeganistão
+    - Irã
+    - Iraque
+    - Síria
+    - Líbano
+    - Jordânia
+    - Israel
+    - Palestina
+    - Arábia Saudita
+    - Emirados Árabes Unidos
+    - Catar
+    - Bahrein
+    - Kuwait
+    - Omã
+    - Iêmen
+    - Egito
+    - Líbia
+    - Tunísia
+    - Argélia
+    - Marrocos
+    - Mauritânia
+    - Mali
+    - Níger
+    - Chade
+    - Sudão
+    - Sudão do Sul
+    - Eritreia
+    - Djibuti
+    - Somália
+    - Etiópia
+    - Quênia
+    - Uganda
+    - Ruanda
+    - Burundi
+    - Tanzânia
+    - Seychelles
+    - Comores
+    - Madagascar
+    - Moçambique
+    - Zâmbia
+    - Zimbábue
+    - Botsuana
+    - Namíbia
+    - África do Sul
+    - Lesoto
+    - Essuatíni
+    - Angola
+    - República Democrática do Congo
+    - República do Congo
+    - Gabão
+    - Guiné Equatorial
+    - São Tomé e Príncipe
+    - Camarões
+    - Nigéria
+    - Benin
+    - Togo
+    - Gana
+    - Costa do Marfim
+    - Libéria
+    - Serra Leoa
+    - Guiné
+    - Guiné-Bissau
+    - Senegal
+    - Gâmbia
+    - Cabo Verde
+    - Burkina Faso
+    - Andorra
+    - Mônaco
+    - Liechtenstein
+    - San Marino
+    - Vaticano
+    - Armênia
+    - Azerbaijão
+    - Geórgia
+    - Cazaquistão
+    - Uzbequistão
+    - Turcomenistão
+    - Quirguistão
+    - Tajiquistão
+    - Mongólia
+    - Coreia do Norte
+    - Myanmar
+    - Tailândia
+    - Laos
+    - Camboja
+    - Vietnã
+    - Malásia
+    - Singapura
+    - Indonésia
+    - Filipinas
+    - Brunei
+    - Timor-Leste
+    - Papua-Nova Guiné
+    - Fiji
+    - Vanuatu
+    - Ilhas Salomão
+    - Samoa
+    - Tonga
+    - Micronésia
+    - Palau
+    - Ilhas Marshall
+    - Nauru
+    - Tuvalu

@@ -2,7 +2,8 @@ module Randamu
   class Academic
     class << self
       def education_level
-        %w[Fundamental Medio Superior].sample
+        ['Educação infantil', 'Fundamental', 'Médio',
+         'Superior', 'Pós-graduação', 'Mestrado', 'Doutorado'].sample
       end
 
       def course
@@ -17,9 +18,6 @@ module Randamu
         load_data('academic.universities').sample
       end
 
-      def graduation_date(years_ago: 10)
-        rand(Date.today - (365 * years_ago)..Date.today)
-      end
     end
   end
 end
