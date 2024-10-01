@@ -9,25 +9,28 @@ module DocumentGenerator
     Array.new(9) { rand(0..9) }.join
   end
 
-  def pis; end
+  def voter_registration
+    Array.new(12) { rand(0..9) }.join
+  end
 
-  # switch to english
-  def titulo_eleitor; end
+  def cnh
+    Array.new(9) { rand(0..9) }.join
+  end
 
-  def reservista; end
+  #orgao emissor
+  def issuing_authority(full_name: false)
+    keys = load_data("doc.issuing_authority").keys
+    key = keys.sample
 
-  def cnh; end
+    return "#{key} - #{load_data("doc.issuing_authority.#{key}")}" if full_name
+    key
+  end
 
   def cnpj(valid: true)
     return generate_valid_cnpj if valid
 
     generate_invalid_cnpj
   end
-
-  def mei; end
-  # outros tipos de documentos de profissionais
-  def crm; end
-
 
   private
     def generate_valid_cpf
@@ -88,4 +91,5 @@ module DocumentGenerator
       remainder = sum % 11
       remainder < 2 ? 0 : 11 - remainder
     end
+
 end

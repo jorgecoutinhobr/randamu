@@ -1,5 +1,5 @@
 module Randamu
-  class Doc
+  class Doc < Base
     extend DocumentGenerator
     class << self
     end

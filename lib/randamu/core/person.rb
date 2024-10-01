@@ -11,7 +11,10 @@ module Randamu
       def gender
         %w(male female other).sample
       end
+
+      def marital_status
+        %w(Solteiro Casado Separado Divorciado Viúvo).sample
+      end
     end
   end
 end
-

@@ -1,0 +1,39 @@
+business:
+  company_name:
+    suffix:
+      - LTDA
+      - "&CIA"
+      - S.A
+      - S/A
+    activity_area:
+      - Tecnologia
+      - Saúde
+      - Educação
+      - Comércio
+      - Serviços
+      - Indústria
+      - Agronegócio
+      - Alimentação
+      - Construção
+      - Transporte
+      - Turismo
+      - Entretenimento
+      - Financeiro
+      - Imobiliário
+      - Consultoria
+      - Marketing
+      - Moda
+      - Beleza
+      - Automotivo
+      - Energia
+      - Ambiental
+      - Jurídico
+      - Contábil
+      - Recursos Humanos
+      - Segurança
+      - Logística
+      - Comunicação
+      - Mídia
+      - Design
+
+

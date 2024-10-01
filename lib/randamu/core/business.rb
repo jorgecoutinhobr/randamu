@@ -1,12 +1,12 @@
 module Randamu
   class Business < Base
     class << self
-      def company_name ; end
-      def profession ; end
-      def industry ; end
-      def product ; end
-      def service ; end
-      def subscription ; end
+      def company_name
+        "#{load_data('names.last_name').sample} #{load_data('business.company_name.activity_area').sample} #{load_data('business.company_name.suffix').sample}"
+      end
+      def subscription
+        %w(Mensal Semestral Anual).sample
+      end
     end
   end
 end
