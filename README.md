@@ -32,31 +32,6 @@ Ou instale você mesmo:
 gem install randamu
 ```
 
-### Exemplos de Uso
-
-```ruby
-require 'randamu'
-
-animal = Randamu::Animal.animal()
-
-mamifero = Randamu::Animal.animal(type: :mammal)
-
-frase= Randamu::Text.phrase(length: 4)
-
-paragrafo = Randamu::Text.paragraph(phrases: 4)
-
-texto = Randamu::Text.big_text(paragraphs: 4)
-
-nome = Randamu::Person.first_name
-
-nome_masculino = Randamu::Person.first_name(gender: :male)
-
-sobrenome = Randamu::Person.last_name
-
-nome_completo = Randamu::Person.full_name
-
-nome_customizado = Randamu::Person.custom_name(length: 3, gender: :male)
-```
 
 
 
