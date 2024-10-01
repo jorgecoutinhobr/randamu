@@ -14,11 +14,6 @@ module Randamu
         keys = key.split('.')
         keys.reduce(DATA) { |data, k| data[k] }
       end
-
-      def load_keys(master_key)
-        keys = master_key.split('.')
-        keys.reduce(DATA) { |data, k| data[k] }.keys
-      end
     end
   end
 end
