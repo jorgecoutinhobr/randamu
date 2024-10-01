@@ -20,13 +20,13 @@ module Randamu
       end
 
       def phone(state: Dictionary::STATES.keys.sample, country_code: false)
-        return "+55 (#{load_data("phone.ddd.#{state}").sample}) " + phone_number if country_code
-        "(#{load_data("phone.ddd.#{state}").sample}) " + phone_number
+        base_phone_number = "(#{load_data("phone.ddd.#{state}").sample}) " + phone_number
+        country_code ? "+55 #{base_phone_number}" : base_phone_number
       end
 
       def phone_only_numbers(state: Dictionary::STATES.keys.sample, country_code: false)
-        return "55#{load_data("phone.ddd.#{state}").sample}" + phone_number if country_code
-        "#{load_data("phone.ddd.#{state}").sample}" + phone_number
+        base_phone_number = load_data("phone.ddd.#{state}").sample.to_s + phone_number
+        country_code ? "55#{base_phone_number}" : base_phone_number
       end
 
       private
