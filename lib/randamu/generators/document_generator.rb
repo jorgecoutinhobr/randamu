@@ -2,7 +2,7 @@ module DocumentGenerator
   def cpf(valid: true)
     return generate_valid_cpf if valid
 
-    genereate_invalid_cpf
+    generate_invalid_cpf
   end
 
   def rg
@@ -40,7 +40,7 @@ module DocumentGenerator
       cpf.join
     end
 
-    def genereate_invalid_cpf
+    def generate_invalid_cpf
       cpf = generate_valid_cpf
       last_digit = cpf[-1]
 

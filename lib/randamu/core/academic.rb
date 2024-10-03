@@ -1,5 +1,5 @@
 module Randamu
-  class Academic
+  class Academic < Base
     class << self
       def education_level
         ['Educação infantil', 'Fundamental', 'Médio',
@@ -10,14 +10,15 @@ module Randamu
         load_data('academic.courses').sample
       end
 
-      def school_name
+      def school
         load_data('academic.schools').sample
       end
 
-      def university_name
+      def university
         load_data('academic.universities').sample
       end
 
+      alias :college :university
     end
   end
 end
