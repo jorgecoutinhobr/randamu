@@ -9,7 +9,7 @@ module Randamu
         %w(A+ A- B+ B- AB+ AB- O+ O-).sample
       end
       def gender
-        %w(male female other).sample
+        %w(Masculino Feminino Outro).sample
       end
 
       def marital_status

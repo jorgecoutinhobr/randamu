@@ -1,17 +1,12 @@
 module Randamu
   class Text < Base
+    FORMATS = %i(upcase downcase capitalize)
     class << self
       def word(format: nil)
-        case format
-        when :upcase
-          load_data('texts.lorem').sample.upcase
-        when :downcase
-          load_data('texts.lorem').sample.downcase
-        when :capitalize
-          load_data('texts.lorem').sample.capitalize
-        else
-          load_data('texts.lorem').sample
-        end
+        word = load_data('texts.lorem').sample
+        return word.send(format) if format && FORMATS.include?(format.to_sym)
+
+        word
       end
 
       def title(words: 3)

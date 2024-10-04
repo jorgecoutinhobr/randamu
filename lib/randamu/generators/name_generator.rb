@@ -12,11 +12,7 @@ module NameGenerator
     load_db(:last).sample
   end
 
-  def full_name(gender: nil)
-    "#{first_name(gender: gender)} #{last_name}"
-  end
-
-  def custom_name(length: 3, gender: nil)
+  def full_name(gender: nil, length: 2)
     generate_custom_name(first_name(gender: gender), length)
   end
 

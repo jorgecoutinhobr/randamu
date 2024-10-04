@@ -5,10 +5,12 @@ module Randamu
     ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
-
+    USERNAME_TYPES = %i[default funny]
     class << self
       def username(type: :default)
-        load_data("names.usernames.#{type}").sample
+        return load_data("names.usernames.#{type}").sample if USERNAME_TYPES.include?(type)
+
+        load_data('names.usernames.default').sample
       end
 
       def password(length: 8, special: true, numeric: true, alphabet: true)
@@ -20,12 +22,12 @@ module Randamu
       end
 
       def phone(state: Dictionary::STATES.keys.sample, country_code: false)
-        base_phone_number = "(#{load_data("phone.ddd.#{state}").sample}) " + phone_number
+        base_phone_number = "(#{load_data("phone.ddd.#{state.upcase}").sample}) " + phone_number
         country_code ? "+55 #{base_phone_number}" : base_phone_number
       end
 
       def phone_only_numbers(state: Dictionary::STATES.keys.sample, country_code: false)
-        base_phone_number = load_data("phone.ddd.#{state}").sample.to_s + phone_number
+        base_phone_number = load_data("phone.ddd.#{state.upcase}").sample.to_s + phone_number
         country_code ? "55#{base_phone_number}" : base_phone_number
       end
 
@@ -48,6 +50,6 @@ module Randamu
     end
 
     # private methods from NameGenerator
-    private_class_method :first_name, :last_name, :full_name, :custom_name
+    private_class_method :first_name, :last_name, :full_name
   end
 end
