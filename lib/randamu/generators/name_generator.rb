@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module NameGenerator
-  GENDER = %w(male female).freeze
+  GENDER = %w[male female].freeze
 
   def first_name(gender: nil)
     return load_db(gender).sample if !gender.nil? && GENDER.include?(gender.to_s)

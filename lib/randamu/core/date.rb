@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module Randamu
   class Date < Base
-    DATE_FORMAT = '%d/%m/%Y'.freeze
-    START_DATE = '01/01/1950'.freeze
+    DATE_FORMAT = '%d/%m/%Y'
+    START_DATE = '01/01/1950'
     PRESENT_DATE = ::Date.today.strftime(DATE_FORMAT).freeze
     FUTURE_DATE =  (::Date.today + (365 * rand(1..100))).strftime(DATE_FORMAT).freeze
 

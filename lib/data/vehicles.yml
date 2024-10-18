@@ -1,0 +1,111 @@
+vehicles:
+  brands:
+    volkswagen:
+      cars:
+        - Gol
+        - Golf
+        - Passat
+        - Polo
+        - Tiguan
+        - Voyage
+        - Virtus
+        - T-Cross
+    honda:
+      cars:
+        - Civic
+        - Accord
+        - Fit
+        - HR-V
+        - WR-V
+      motorcycles:
+        - CBR
+        - CB
+        - CRF
+        - XR
+        - XRE
+        - CG
+        - Biz
+        - Pop
+        - NC 750X
+        - PCX
+    toyota:
+      cars:
+        - Corolla
+        - Camry
+        - RAV4
+        - Hilux
+        - Yaris
+    ford:
+      cars:
+        - Fiesta
+        - Focus
+        - Fusion
+        - Mustang
+        - Ka
+        - EcoSport
+    chevrolet:
+      cars:
+        - Onix
+        - Prisma
+        - Cruze
+        - S10
+        - Spin
+        - Tracker
+        - Cobalt
+    fiat:
+      cars:
+        - Uno
+        - Palio
+        - Siena
+        - Toro
+        - Mobi
+        - Strada
+        - Argo
+    nissan:
+      cars:
+        - Sentra
+        - Altima
+        - Versa
+        - Kicks
+    yamaha:
+      motorcycles:
+        - YBR
+        - Fazer
+        - MT-03
+        - Tenere
+        - Lander
+        - NMAX
+        - XJ6
+        - Tracer 900
+    suzuki:
+      motorcycles:
+        - Hayabusa
+        - GSX-R750
+        - V-Strom
+        - Burgman 400
+        - GSR 150
+        - Intruder 125
+    kawasaki:
+      motorcycles:
+        - Ninja 300
+        - Z400
+        - Versys 650
+        - Vulcan S
+        - Z900
+    bmw:
+      cars:
+        - X1
+        - X6
+      motorcycles:
+        - G 310 R
+        - F 850 GS
+        - S 1000 RR
+        - R 1250 GS
+        - C 400 X
+    ducati:
+      motorcycles:
+        - Monster 797
+        - Multistrada 950
+        - Panigale V4
+        - Scrambler Icon
+        - Diavel 1260

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module DocumentGenerator
   def cpf(valid: true)
     return generate_valid_cpf if valid
@@ -17,12 +19,13 @@ module DocumentGenerator
     Array.new(9) { rand(0..9) }.join
   end
 
-  #orgao emissor
+  # orgao emissor
   def issuing_authority(full_name: false)
-    keys = load_data("doc.issuing_authority").keys
+    keys = load_data('doc.issuing_authority').keys
     key = keys.sample
 
     return "#{key} - #{load_data("doc.issuing_authority.#{key}")}" if full_name
+
     key
   end
 
@@ -91,5 +94,4 @@ module DocumentGenerator
       remainder = sum % 11
       remainder < 2 ? 0 : 11 - remainder
     end
-
 end

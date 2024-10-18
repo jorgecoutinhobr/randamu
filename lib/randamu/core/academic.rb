@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Randamu
   class Academic < Base
     class << self
@@ -17,7 +19,7 @@ module Randamu
         load_data('academic.universities').sample
       end
 
-      alias :college :university
+      alias college university
     end
   end
 end

@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module Randamu
-  class  Person < Base
+  class Person < Base
     extend NameGenerator
 
     class << self

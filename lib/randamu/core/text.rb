@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 module Randamu
   class Text < Base
-    FORMATS = %i(upcase downcase capitalize)
+    FORMATS = %i[upcase downcase capitalize].freeze
 
     class << self
       def word(format: nil)

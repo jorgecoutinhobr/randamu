@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Randamu
   class Account < Base
     extend NameGenerator
@@ -5,7 +7,7 @@ module Randamu
     ALPHABET = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
-    USERNAME_TYPES = %i[default funny]
+    USERNAME_TYPES = %i[default funny].freeze
 
     class << self
       def username(type: :default)
@@ -46,7 +48,7 @@ module Randamu
         end
 
         def phone_number
-          '9' + rand(10000000..99999999).to_s
+          "9#{rand(10_000_000..99_999_999)}"
         end
     end
 

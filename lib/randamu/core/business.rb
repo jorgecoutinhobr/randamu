@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Randamu
   class Business < Base
     class << self
@@ -6,7 +8,7 @@ module Randamu
       end
 
       def subscription
-        %w(Mensal Semestral Anual).sample
+        %w[Mensal Semestral Anual].sample
       end
     end
   end
