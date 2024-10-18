@@ -1,11 +1,12 @@
 module Randamu
   class Text < Base
     FORMATS = %i(upcase downcase capitalize)
+
     class << self
       def word(format: nil)
         word = load_data('texts.lorem').sample
-        return word.send(format) if format && FORMATS.include?(format.to_sym)
 
+        return word.send(format) if format && FORMATS.include?(format.to_sym)
         word
       end
 

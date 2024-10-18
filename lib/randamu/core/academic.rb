@@ -2,8 +2,7 @@ module Randamu
   class Academic < Base
     class << self
       def education_level
-        ['Educação infantil', 'Fundamental', 'Médio',
-         'Superior', 'Pós-graduação', 'Mestrado', 'Doutorado'].sample
+        load_data('academic.education_levels').sample
       end
 
       def course

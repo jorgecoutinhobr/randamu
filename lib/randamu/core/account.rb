@@ -6,11 +6,12 @@ module Randamu
     NUMERIC = '0123456789'
     SPEACIAL = '!@#$%&*()_+'
     USERNAME_TYPES = %i[default funny]
+
     class << self
       def username(type: :default)
-        return load_data("names.usernames.#{type}").sample if USERNAME_TYPES.include?(type)
+        return load_data("people.usernames.#{type}").sample if USERNAME_TYPES.include?(type)
 
-        load_data('names.usernames.default').sample
+        load_data('people.usernames.default').sample
       end
 
       def password(length: 8, special: true, numeric: true, alphabet: true)

@@ -1,5 +1,5 @@
 module Randamu
-  class Date
+  class Date < Base
     DATE_FORMAT = '%d/%m/%Y'.freeze
     START_DATE = '01/01/1950'.freeze
     PRESENT_DATE = ::Date.today.strftime(DATE_FORMAT).freeze
@@ -14,6 +14,14 @@ module Randamu
         generate_date(start_date, end_date, as_string)
       end
 
+      def day_of_week
+        load_data('date.days').sample
+      end
+
+      def month
+        load_data('date.months').sample
+      end
+
       private
         def generate_date(start_date, end_date, as_string)
           start_date = string_to_date(start_date)
@@ -23,6 +31,7 @@ module Randamu
           return date_to_string(random_date) if as_string
           random_date
         end
+
         def string_to_date(string)
           ::Date.strptime(string, DATE_FORMAT)
         end

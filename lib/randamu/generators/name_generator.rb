@@ -18,10 +18,10 @@ module NameGenerator
 
   private
     def load_db(type)
-      return load_data("names.#{type}_name") unless type.nil?
+      return load_data("people.#{type}_name") unless type.nil?
 
       type = GENDER.sample
-      load_data("names.#{type}_name")
+      load_data("people.#{type}_name")
     end
 
     def generate_custom_name(initial_name, length)
