@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yaml'
 require 'date'
 
@@ -17,6 +19,6 @@ module Randamu
   end
 end
 
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/support/*.rb')).each { |file| require file }
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/generators/*.rb')).each { |file| require file }
-Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/core/*.rb')).each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/support/*.rb')).sort.each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/generators/*.rb')).sort.each { |file| require file }
+Dir.glob(File.join(File.dirname(__FILE__), 'randamu', '/core/*.rb')).sort.each { |file| require file }

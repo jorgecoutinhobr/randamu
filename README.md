@@ -2,13 +2,9 @@
 
   [![Gem Version](https://badge.fury.io/rb/randamu.svg)](https://badge.fury.io/rb/randamu)
 
-## Aviso
-
-Ainda está em desenvolvimento.
-
 ## Objetivo
 
-Esta gem foi desenvolvida como um projeto de aprendizado para entender o desenvolvimento e publicação de libs. Seu objetivo principal é fornecer um conjunto de ferramentas para geração de dados aleatórios em português, facilitando a criação de objetos de teste.
+Esta gem foi desenvolvida como um projeto de aprendizado para entender o desenvolvimento e publicação de uma gem. Seu objetivo principal é fornecer um conjunto de ferramentas para geração de dados aleatórios em português, facilitando a criação de objetos de teste.
 
 ## Como Usar
 
@@ -39,11 +35,17 @@ require 'randamu'
 
 # Gerar um CPF válido
 cpf_valido = Randamu::Doc.cpf
-puts cpf_valido
+# "45030542019"
 
 # Gerar um CPF inválido
 cpf_invalido = Randamu::Doc.cpf(valid: false)
-puts cpf_invalido
+# "45030542015"
+
+orgao_emissor = Randamu::Doc.issuing_authority
+# "DETRAN"
+
+orgao_emissor = Randamu::Doc.issuing_authority(full_name: true)
+# "DETRAN - Departamento Estadual de Trânsito"
 ```
 
 
@@ -164,6 +166,13 @@ d.class # Date
 
 Randamu::Date.future_date(as_string: true)
 # Saída: "06/07/2037"
+
+Randamu::Date.day_of_week
+# Saída: "Segunda"
+
+Randamu::Date.month
+# Saída: "Janeiro"
+
 ```
 </details>
 
@@ -211,8 +220,12 @@ Randamu::Doc.issuing_authority(full_name: true)
 
 ```ruby
 # Gerar um endereco completo aleatório
+# Por padrão: full_address(state: nil)
 Randamu::Map.full_address
-# Saída: "Rua dos Lobos, 105, Rio de Janeiro, RJ, 20000-000"
+# Saída: "Rua dos Lobos, 105, Campinas, Minas Gerais, 20000-000"
+
+Randamu::Map.full_address(state: :sp)
+# Saída: "Rua dos Lobos, 105, Campinas, São Paulo, 20000-100"
 
 # Gerar uma cidade aleatória
 # Por padrão: city(state: nil)
@@ -285,6 +298,14 @@ Randamu::Person.profession
 # Gerar tipo sanguíneo aleatório
 Randamu::Person.blood_type
 # Saída: "O+"
+
+# Gerar religiao aleatoria
+# Por padrão religion(adjective: true)
+Randamu::Person.religion
+# Saída: Judeu
+
+Randamu::Person.religion(adjective: false)
+# Saída: Judaísmo
 ```
 </details>
 

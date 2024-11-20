@@ -1,4 +1,4 @@
-names:
+people:
   male_name:
     - João
     - Paulo
@@ -518,3 +518,42 @@ names:
       - Euma Maria
       - Al-Khabeid Kommer
       - Sheik Volim Rabah
+  religions:
+    - Cristianismo
+    - Judaísmo
+    - Islamismo
+    - Hinduísmo
+    - Budismo
+    - Espiritismo
+    - Candomblé
+    - Umbanda
+    - Druidismo
+    - Taoísmo
+  religions_adjectives:
+    - Cristão
+    - Judeu
+    - Islâmico
+    - Hindu
+    - Budista
+    - Espírita
+    - Candomblecista
+    - Umbandista
+    - Druida
+    - Taoísta
+  genders:
+    - Masculino
+    - Feminino
+  marital_status:
+    - Solteiro
+    - Casado
+    - Divorciado
+    - Viúvo
+  blood_types:
+    - A+
+    - A-
+    - B+
+    - B-
+    - AB+
+    - AB-
+    - O+
+    - O

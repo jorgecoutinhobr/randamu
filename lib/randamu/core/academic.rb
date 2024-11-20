@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 module Randamu
   class Academic < Base
     class << self
       def education_level
-        ['Educação infantil', 'Fundamental', 'Médio',
-         'Superior', 'Pós-graduação', 'Mestrado', 'Doutorado'].sample
+        load_data('academic.education_levels').sample
       end
 
       def course
@@ -18,7 +19,11 @@ module Randamu
         load_data('academic.universities').sample
       end
 
-      alias :college :university
+      def degree
+        load_data('academic.degrees').sample
+      end
+
+      alias college university
     end
   end
 end

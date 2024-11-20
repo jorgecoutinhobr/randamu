@@ -1,19 +1,30 @@
+# frozen_string_literal: true
+
 module Randamu
-  class  Person < Base
+  class Person < Base
     extend NameGenerator
+
     class << self
       def profession
         load_data('academic.professions').sample
       end
+
       def blood_type
-        %w(A+ A- B+ B- AB+ AB- O+ O-).sample
+        load_data('people.blood_types').sample
       end
+
       def gender
-        %w(Masculino Feminino Outro).sample
+        load_data('people.genders').sample
       end
 
       def marital_status
-        %w(Solteiro Casado Separado Divorciado Viúvo).sample
+        load_data('people.marital_status').sample
+      end
+
+      def religion(adjective: true)
+        return load_data('people.religions_adjectives').sample if adjective
+
+        load_data('people.religions').sample
       end
     end
   end

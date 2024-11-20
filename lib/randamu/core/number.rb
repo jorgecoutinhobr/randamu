@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Randamu
   class Number < Base
     class << self

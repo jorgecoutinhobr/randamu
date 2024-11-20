@@ -1,4 +1,19 @@
 academic:
+  degrees:
+    - Doutor
+    - Mestre
+    - Bacharel
+    - Licenciado
+    - Tecnólogo
+    - Pós-Doutor
+  education_levels:
+    - Ensino Fundamental
+    - Ensino Médio
+    - Ensino Técnico
+    - Ensino Superior
+    - Pós-Graduação
+    - Mestrado
+    - Doutorado
   universities:
     - Universidade Federal de Minas Gerais
     - Universidade Federal de Juiz de Fora
