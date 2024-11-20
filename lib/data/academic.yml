@@ -1,4 +1,11 @@
 academic:
+  degrees:
+    - Doutor
+    - Mestre
+    - Bacharel
+    - Licenciado
+    - Tecnólogo
+    - Pós-Doutor
   education_levels:
     - Ensino Fundamental
     - Ensino Médio

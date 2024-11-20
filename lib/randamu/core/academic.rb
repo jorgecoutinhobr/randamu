@@ -19,6 +19,10 @@ module Randamu
         load_data('academic.universities').sample
       end
 
+      def degree
+        load_data('academic.degrees').sample
+      end
+
       alias college university
     end
   end
