@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'randamu'
-  s.version     = '0.0.2'
+  s.version     = '0.0.4'
   s.authors     = ['Jorge Coutinho']
   s.email       = 'jorgecoutinhodsn@gmail.com'
   s.summary     = 'Random data generator in pt-BR'
