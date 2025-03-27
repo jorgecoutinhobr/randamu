@@ -36,11 +36,18 @@ module Randamu
 
       private
         def generate_password(length, special, numeric, alphabet)
+          temp = ''
+          temp += NUMERIC.chars.sample if numeric
+          temp += SPEACIAL.chars.sample if special
+          temp += ALPHABET.chars.sample if alphabet
+
           password = ''
           password += ALPHABET if alphabet
           password += SPEACIAL if special
           password += NUMERIC if numeric
-          password.split('').shuffle[1..length].join
+
+          (length - temp.length).times { temp += password.chars.sample }
+          temp.chars.shuffle.join
         end
 
         def generate_connection_symbol
