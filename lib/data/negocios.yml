@@ -1,11 +1,11 @@
-business:
-  company_name:
-    suffix:
+negocios:
+  nome_companhia:
+    sufixos:
       - LTDA
       - "&CIA"
       - S.A
       - S/A
-    activity_area:
+    area_atuacao:
       - Tecnologia
       - Saúde
       - Educação
@@ -35,5 +35,3 @@ business:
       - Comunicação
       - Mídia
       - Design
-
-

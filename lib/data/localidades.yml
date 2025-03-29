@@ -1,5 +1,5 @@
-map:
-  additional_address_data:
+localidades:
+  complemento:
     - Bloco A
     - Bloco B
     - Bloco C
@@ -39,7 +39,7 @@ map:
     - Prox. a Delegacia
     - Prox. a Biblioteca Municipal
     - Prox. a Faculdade de Medicina
-  zip_codes:
+  cep:
     - 20000-000
     - 21000-000
     - 22000-000
@@ -51,7 +51,7 @@ map:
     - 28000-000
     - 29000-000
     - 29100-000
-  streets:
+  ruas:
     - Rua do Ouvidor
     - Rua do Lavradio
     - Rua do Riachuelo
@@ -89,7 +89,7 @@ map:
     - Rua do Riachuelo
     - Rua do Ouvidor
     - Rua da Alfândega
-  states:
+  estados:
     RJ:
       - Rio de Janeiro
       - Niterói
@@ -1638,7 +1638,7 @@ map:
       - Pedro Afonso
       - Peixe
       - Porto Nacional
-  countries:
+  paises:
     - Brasil
     - Argentina
     - Chile

@@ -1,5 +1,5 @@
-animals:
-  mammals:
+animais:
+  mamiferos:
     - Leão
     - Elefante
     - Tigre
@@ -51,7 +51,7 @@ animals:
     - Gnu
     - Cervo
 
-  birds:
+  aves:
     - Águia
     - Papagaio
     - Pinguim
@@ -104,7 +104,7 @@ animals:
     - Fura-bucho
     - Quetzal
 
-  reptiles:
+  repteis:
     - Jacaré
     - Cobra
     - Lagarto
@@ -156,7 +156,7 @@ animals:
     - Cobra-lixa
     - Caimão
 
-  amphibians:
+  anfibios:
     - Sapo
     - Salamandra
     - Rã
@@ -179,15 +179,7 @@ animals:
     - Rã-da-mata-atlântica
     - Rã-das-copas
     - Salamandra-gigante
-    - Salamandra-listrada
-    - Perereca-do-rio
-    - Sapo-de-chifre
-    - Rã-de-olhos-vermelhos
-    - Sapo-de-flecha
-    - Rã-pimentão
-    - Perereca-de-wax
-    - Rã-leopardo
-    - Salamandra-pintada
+    - Salamandra-lisra-pintada
     - Tritão-do-leste
     - Rã-bananinha
     - Perereca-do-banhado
@@ -207,7 +199,7 @@ animals:
     - Salamandra-andina
     - Tritão-de-cara-azul
 
-  fishs:
+  peixes:
     - Tubarão
     - Salmão
     - Tilápia
@@ -260,7 +252,7 @@ animals:
     - Surubim
     - Jacundá
 
-  insects:
+  insetos:
     - Borboleta
     - Abelha
     - Formiga

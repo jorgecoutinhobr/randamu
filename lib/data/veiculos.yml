@@ -1,7 +1,7 @@
-vehicles:
-  brands:
+veiculos:
+  marcas:
     volkswagen:
-      cars:
+      carros:
         - Gol
         - Golf
         - Passat
@@ -11,13 +11,13 @@ vehicles:
         - Virtus
         - T-Cross
     honda:
-      cars:
+      carros:
         - Civic
         - Accord
         - Fit
         - HR-V
         - WR-V
-      motorcycles:
+      motocicletas:
         - CBR
         - CB
         - CRF
@@ -29,14 +29,14 @@ vehicles:
         - NC 750X
         - PCX
     toyota:
-      cars:
+      carros:
         - Corolla
         - Camry
         - RAV4
         - Hilux
         - Yaris
     ford:
-      cars:
+      carros:
         - Fiesta
         - Focus
         - Fusion
@@ -44,7 +44,7 @@ vehicles:
         - Ka
         - EcoSport
     chevrolet:
-      cars:
+      carros:
         - Onix
         - Prisma
         - Cruze
@@ -53,7 +53,7 @@ vehicles:
         - Tracker
         - Cobalt
     fiat:
-      cars:
+      carros:
         - Uno
         - Palio
         - Siena
@@ -62,13 +62,13 @@ vehicles:
         - Strada
         - Argo
     nissan:
-      cars:
+      carros:
         - Sentra
         - Altima
         - Versa
         - Kicks
     yamaha:
-      motorcycles:
+      motocicletas:
         - YBR
         - Fazer
         - MT-03
@@ -78,7 +78,7 @@ vehicles:
         - XJ6
         - Tracer 900
     suzuki:
-      motorcycles:
+      motocicletas:
         - Hayabusa
         - GSX-R750
         - V-Strom
@@ -86,24 +86,24 @@ vehicles:
         - GSR 150
         - Intruder 125
     kawasaki:
-      motorcycles:
+      motocicletas:
         - Ninja 300
         - Z400
         - Versys 650
         - Vulcan S
         - Z900
     bmw:
-      cars:
+      carros:
         - X1
         - X6
-      motorcycles:
+      motocicletas:
         - G 310 R
         - F 850 GS
         - S 1000 RR
         - R 1250 GS
         - C 400 X
     ducati:
-      motorcycles:
+      motocicletas:
         - Monster 797
         - Multistrada 950
         - Panigale V4

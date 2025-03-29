@@ -1,12 +1,12 @@
-academic:
-  degrees:
+academico:
+  grau_academico:
     - Doutor
     - Mestre
     - Bacharel
     - Licenciado
     - Tecnólogo
     - Pós-Doutor
-  education_levels:
+  nivel_escolaridade:
     - Ensino Fundamental
     - Ensino Médio
     - Ensino Técnico
@@ -14,7 +14,7 @@ academic:
     - Pós-Graduação
     - Mestrado
     - Doutorado
-  universities:
+  universidades:
     - Universidade Federal de Minas Gerais
     - Universidade Federal de Juiz de Fora
     - Universidade Federal Fluminense
@@ -23,7 +23,7 @@ academic:
     - Universidade Federal do Espírito Santo
     - Universidade Federal de São Paulo
     - Universidade Federal da Bahia
-  courses:
+  cursos:
     - Engenharia de Computação
     - Ciência da Computação
     - Sistemas de Informação
@@ -66,14 +66,14 @@ academic:
     - Design
     - Arquitetura
     - Urbanismo
-  schools:
+  escolas:
     - Colégio Militar de Belo Horizonte
     - Colégio Militar de Juiz de Fora
     - Colégio Militar do Rio de Janeiro
     - Colégio Pedro II
     - FAETEC
     - CEFET
-  professions:
+  profissoes:
     - Advogado
     - Arquiteto
     - Engenheiro Civil

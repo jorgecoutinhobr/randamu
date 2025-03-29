@@ -1,5 +1,5 @@
-people:
-  male_name:
+pessoas:
+  nomes_masculinos:
     - João
     - Paulo
     - Miguel
@@ -113,7 +113,7 @@ people:
     - Marcos
     - Vítor
 
-  female_name:
+  nomes_femininos:
     - Maria
     - Joana
     - Jennifer
@@ -273,7 +273,7 @@ people:
     - Mira
     - Joyce
 
-  last_name:
+  sobrenomes:
     - Silva
     - Santos
     - Oliveira
@@ -380,8 +380,8 @@ people:
     - Teles
     - Lins
     - Coutinho
-  usernames:
-    default:
+  nomes_usuarios:
+    padrões:
       - Akinori
       - Thor
       - Maximus
@@ -451,7 +451,7 @@ people:
       - Gale
       - Nacht
       - Nebel
-    funny:
+    engracados:
       - CarimboMiguel
       - gato_calvo
       - 20Matar70fugir
@@ -518,7 +518,7 @@ people:
       - Euma Maria
       - Al-Khabeid Kommer
       - Sheik Volim Rabah
-  religions:
+  religioes:
     - Cristianismo
     - Judaísmo
     - Islamismo
@@ -529,7 +529,7 @@ people:
     - Umbanda
     - Druidismo
     - Taoísmo
-  religions_adjectives:
+  identidades_religiosas:
     - Cristão
     - Judeu
     - Islâmico
@@ -540,15 +540,15 @@ people:
     - Umbandista
     - Druida
     - Taoísta
-  genders:
+  generos:
     - Masculino
     - Feminino
-  marital_status:
+  situacoes_matrimoniais:
     - Solteiro
     - Casado
     - Divorciado
     - Viúvo
-  blood_types:
+  tipos_sanguineos:
     - A+
     - A-
     - B+

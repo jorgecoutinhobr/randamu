@@ -1,5 +1,5 @@
-date:
-  days:
+data:
+  dias:
     - Segunda
     - Terça
     - Quarta
@@ -7,7 +7,7 @@ date:
     - Sexta
     - Sábado
     - Domingo
-  months:
+  meses:
     - Janeiro
     - Fevereiro
     - Março
@@ -20,4 +20,3 @@ date:
     - Outubro
     - Novembro
     - Dezembro
-  
